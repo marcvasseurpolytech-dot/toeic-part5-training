@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Administration — TOEIC Part 5</title>
+<title>Administration — TOEIC Part 5 & 6</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Source+Serif+4:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -69,7 +69,7 @@ button{
 </style>
 </head>
 <body>
-<header><h1>Administration — TOEIC Part 5 (10 tests)</h1></header>
+<header><h1>Administration — TOEIC Part 5 &amp; 6</h1></header>
 <div class="wrap">
 
   <div class="card" id="loginCard">
@@ -92,8 +92,16 @@ button{
     </div>
 
     <div class="card">
-      <h2>Ouverture par test</h2>
+      <h2>Part 5 — Ouverture par test</h2>
       <div id="testsList"></div>
+    </div>
+
+    <div class="card">
+      <h2>Part 6 — Ouverture par test</h2>
+      <div id="testsListP6"></div>
+    </div>
+
+    <div class="card">
       <div class="actions">
         <button class="btn-primary" id="saveBtn">Enregistrer les modifications</button>
         <button class="btn-ghost" id="reloadBtn">Recharger l'état actuel</button>
@@ -161,17 +169,23 @@ function renderAccess(){
 
   const list = document.getElementById('testsList');
   const ids = Object.keys(currentAccess.tests).sort((a,b)=>+a-+b);
-  list.innerHTML = ids.map(id=>{
-    const t = currentAccess.tests[id];
-    const dtVal = t.unlock_date ? toLocalInputValue(t.unlock_date) : '';
-    return `
-      <div class="test-row ${t.unlocked?'on':''}" data-id="${id}">
-        <span class="name">Test ${id}</span>
-        <label class="chk"><input type="checkbox" class="chk-unlock" ${t.unlocked?'checked':''}> Ouvert</label>
-        <input type="datetime-local" class="dt-unlock" value="${dtVal}">
-        <span class="badge">${t.unlock_date ? 'dès le ' + new Date(t.unlock_date).toLocaleString('fr-FR',{dateStyle:'short',timeStyle:'short'}) : 'immédiat si coché'}</span>
-      </div>`;
-  }).join('');
+  list.innerHTML = ids.map(id=>renderTestRow(id, currentAccess.tests[id])).join('');
+
+  const listP6 = document.getElementById('testsListP6');
+  const p6 = currentAccess.tests_p6 || {};
+  const idsP6 = Object.keys(p6).sort((a,b)=>+a-+b);
+  listP6.innerHTML = idsP6.map(id=>renderTestRow(id, p6[id])).join('');
+}
+
+function renderTestRow(id, t){
+  const dtVal = t.unlock_date ? toLocalInputValue(t.unlock_date) : '';
+  return `
+    <div class="test-row ${t.unlocked?'on':''}" data-id="${id}">
+      <span class="name">Test ${id}</span>
+      <label class="chk"><input type="checkbox" class="chk-unlock" ${t.unlocked?'checked':''}> Ouvert</label>
+      <input type="datetime-local" class="dt-unlock" value="${dtVal}">
+      <span class="badge">${t.unlock_date ? 'dès le ' + new Date(t.unlock_date).toLocaleString('fr-FR',{dateStyle:'short',timeStyle:'short'}) : 'immédiat si coché'}</span>
+    </div>`;
 }
 
 function toLocalInputValue(iso){
@@ -184,19 +198,25 @@ document.getElementById('closeBtn').onclick = ()=> submitUpdate({closed:true});
 document.getElementById('reopenBtn').onclick = ()=> submitUpdate({closed:false});
 document.getElementById('reloadBtn').onclick = loadAccess;
 
-document.getElementById('saveBtn').onclick = ()=>{
-  const rows = document.querySelectorAll('.test-row');
-  const tests = {};
+function readRows(containerId){
+  const rows = document.getElementById(containerId).querySelectorAll('.test-row');
+  const out = {};
   rows.forEach(row=>{
     const id = row.dataset.id;
     const unlocked = row.querySelector('.chk-unlock').checked;
     const dtVal = row.querySelector('.dt-unlock').value;
-    tests[id] = {
+    out[id] = {
       unlocked,
       unlock_date: dtVal ? new Date(dtVal).toISOString() : null
     };
   });
-  submitUpdate({tests});
+  return out;
+}
+
+document.getElementById('saveBtn').onclick = ()=>{
+  const tests = readRows('testsList');
+  const tests_p6 = readRows('testsListP6');
+  submitUpdate({tests, tests_p6});
 };
 
 async function submitUpdate(partial){
