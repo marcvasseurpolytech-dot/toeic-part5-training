@@ -102,6 +102,11 @@ button{
     </div>
 
     <div class="card">
+      <h2>Mini Tests (Part 5+6+7) — Ouverture par test</h2>
+      <div id="testsListMini"></div>
+    </div>
+
+    <div class="card">
       <div class="actions">
         <button class="btn-primary" id="saveBtn">Enregistrer les modifications</button>
         <button class="btn-ghost" id="reloadBtn">Recharger l'état actuel</button>
@@ -175,6 +180,11 @@ function renderAccess(){
   const p6 = currentAccess.tests_p6 || {};
   const idsP6 = Object.keys(p6).sort((a,b)=>+a-+b);
   listP6.innerHTML = idsP6.map(id=>renderTestRow(id, p6[id])).join('');
+
+  const listMini = document.getElementById('testsListMini');
+  const mini = currentAccess.tests_mini || {};
+  const idsMini = Object.keys(mini).sort((a,b)=>+a-+b);
+  listMini.innerHTML = idsMini.map(id=>renderTestRow(id, mini[id])).join('');
 }
 
 function renderTestRow(id, t){
@@ -216,7 +226,8 @@ function readRows(containerId){
 document.getElementById('saveBtn').onclick = ()=>{
   const tests = readRows('testsList');
   const tests_p6 = readRows('testsListP6');
-  submitUpdate({tests, tests_p6});
+  const tests_mini = readRows('testsListMini');
+  submitUpdate({tests, tests_p6, tests_mini});
 };
 
 async function submitUpdate(partial){
