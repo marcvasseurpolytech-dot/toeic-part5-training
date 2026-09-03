@@ -54,6 +54,8 @@ header p{
   display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   background:#fff;border:1px solid var(--border);border-radius:8px;
   padding:14px 16px;margin-bottom:22px;
+  position:sticky;top:10px;z-index:50;
+  box-shadow:0 4px 12px rgba(21,34,56,0.12);
 }
 .nav-bar select{
   font-family:'Source Serif 4',serif;
@@ -156,7 +158,6 @@ footer strong{color:var(--navy);}
   padding:6px 14px;border-radius:6px;display:inline-block;margin-left:10px;
 }
 .p6-timer.low{background:#3a1f1a;color:#e8c4b8;border-color:var(--bad);}
-.p6-timer.paused{opacity:.6;font-style:italic;}
 .p6-passage{background:#fff;border:1px solid var(--border);border-radius:10px;margin-bottom:22px;overflow:hidden;}
 .p6-passage-head{background:var(--cream-dark);padding:12px 18px;border-bottom:1px solid var(--border);}
 .p6-passage-head .label{font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--navy-light);}
@@ -202,11 +203,6 @@ let ACCESS = null;
 let currentTest = null;
 let answers = {};      // { qnum: 'A' }
 let checked = {};      // { qnum: true }
-
-// Scroll-driven timer: the countdown only advances while the student is
-// actively scrolling through the test; it pauses as soon as scrolling stops.
-let lastScrollTs = Date.now();
-window.addEventListener('scroll', ()=>{ lastScrollTs = Date.now(); }, {passive:true});
 
 const app = document.getElementById('app');
 const statusLine = document.getElementById('statusLine');
@@ -371,20 +367,12 @@ function renderTest(tid){
     if(btn) btn.onclick = ()=> p5Correct(tid);
 
     if(!p5Interval){
-      lastScrollTs = Date.now();
       p5Interval = setInterval(()=>{
+        p5TimeLeft--;
         const timerEl = document.getElementById('p5Timer');
-        const scrolledRecently = (Date.now() - lastScrollTs) < 1200;
-        if(scrolledRecently){
-          p5TimeLeft--;
-          if(timerEl){
-            timerEl.textContent = p6Format(p5TimeLeft);
-            timerEl.classList.remove('paused');
-            if(p5TimeLeft <= 60) timerEl.classList.add('low');
-          }
-        } else if(timerEl){
-          timerEl.textContent = '⏸ ' + p6Format(p5TimeLeft);
-          timerEl.classList.add('paused');
+        if(timerEl){
+          timerEl.textContent = p6Format(p5TimeLeft);
+          if(p5TimeLeft <= 60) timerEl.classList.add('low');
         }
         if(p5TimeLeft <= 0){
           clearInterval(p5Interval); p5Interval=null;
@@ -560,20 +548,12 @@ function renderPart6Test(tid){
     if(btn) btn.onclick = ()=> p6Correct(tid);
 
     if(!p6Interval){
-      lastScrollTs = Date.now();
       p6Interval = setInterval(()=>{
+        p6TimeLeft--;
         const timerEl = document.getElementById('p6Timer');
-        const scrolledRecently = (Date.now() - lastScrollTs) < 1200;
-        if(scrolledRecently){
-          p6TimeLeft--;
-          if(timerEl){
-            timerEl.textContent = p6Format(p6TimeLeft);
-            timerEl.classList.remove('paused');
-            if(p6TimeLeft <= 60) timerEl.classList.add('low');
-          }
-        } else if(timerEl){
-          timerEl.textContent = '⏸ ' + p6Format(p6TimeLeft);
-          timerEl.classList.add('paused');
+        if(timerEl){
+          timerEl.textContent = p6Format(p6TimeLeft);
+          if(p6TimeLeft <= 60) timerEl.classList.add('low');
         }
         if(p6TimeLeft <= 0){
           clearInterval(p6Interval); p6Interval = null;
