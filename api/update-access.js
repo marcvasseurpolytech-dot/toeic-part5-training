@@ -16,7 +16,7 @@ module.exports = async (req, res) => {
   if (typeof body === 'string') {
     try { body = JSON.parse(body); } catch (e) { body = {}; }
   }
-  const { password, closed, tests, tests_p6 } = body || {};
+  const { password, closed, tests, tests_p6, tests_mini } = body || {};
 
   if (!password) {
     res.status(401).json({ error: 'Mot de passe manquant' });
@@ -37,7 +37,8 @@ module.exports = async (req, res) => {
     closed,
     updated_at: new Date().toISOString(),
     tests,
-    tests_p6: (typeof tests_p6 === 'object' && tests_p6 !== null) ? tests_p6 : {}
+    tests_p6: (typeof tests_p6 === 'object' && tests_p6 !== null) ? tests_p6 : {},
+    tests_mini: (typeof tests_mini === 'object' && tests_mini !== null) ? tests_mini : {}
   };
 
   const apiUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/access.json`;
