@@ -3624,8 +3624,8 @@
       "passages": [
         {
           "label": "PASSAGE 1 — QUESTIONS 1–4",
-          "meta": "À : Tout le personnel · De : Facilities Management · Objet : Calendrier des travaux",
-          "text": "Chers collègues,\n\nNous avons le plaisir de vous informer que la rénovation des salles de réunion du troisième étage débutera lundi prochain. Les travaux ⟦1⟧ environ trois semaines, en fonction de la disponibilité des matériaux.\n\nPendant cette période, les employés qui utilisent habituellement ces salles pour leurs réunions sont invités à ⟦2⟧ l'accueil afin de réserver un espace alternatif au deuxième étage.\n\n⟦3⟧\n\nNous vous prions de nous excuser pour la gêne occasionnée et vous remercions de votre patience pendant l'amélioration de nos locaux.\n\nPour toute question, n'hésitez pas à contacter l'équipe Facilities Management ⟦4⟧ le poste 204.\n\nCordialement,\nFacilities Management",
+          "meta": "To: All Staff · From: Facilities Management · Subject: Renovation Schedule",
+          "text": "Dear Colleagues,\n\nWe are pleased to announce that the renovation of the third-floor conference rooms will begin next Monday. The work ⟦1⟧ approximately three weeks to complete, depending on the availability of materials.\n\nDuring this period, employees who normally use these rooms for meetings should ⟦2⟧ the reception desk to reserve an alternative space on the second floor.\n\n⟦3⟧\n\nWe apologize for any inconvenience this may cause and appreciate your patience while we improve our facilities.\n\nIf you have any questions, please do not hesitate to contact the Facilities Management team ⟦4⟧ extension 204.\n\nBest regards,\nFacilities Management",
           "questions": [
             {
               "num": 1,
@@ -3637,7 +3637,7 @@
                 "is having"
               ],
               "correct": 1,
-              "explanation": "Il s'agit d'une annonce de travaux qui vont commencer « lundi prochain » : l'action est future et présentée comme certaine (planning annoncé). On utilise donc le futur simple « will take ». « took » est un passé, incompatible avec un événement à venir ; « has taken » (present perfect) suppose une action déjà achevée ; « is having » n'est pas une collocation naturelle avec « time »."
+              "explanation": "Il s'agit d'une annonce de travaux qui vont commencer « next Monday » : l'action est future et présentée comme certaine (planning annoncé). On utilise donc le futur simple « will take ». « took » est un passé, incompatible avec un événement à venir ; « has taken » (present perfect) suppose une action déjà achevée ; « is having » n'est pas une collocation naturelle avec « time »."
             },
             {
               "num": 2,
@@ -3649,19 +3649,19 @@
                 "participate"
               ],
               "correct": 0,
-              "explanation": "« Contact the reception desk » est la collocation naturelle pour dire « prendre contact avec l'accueil ». « discuss » appelle une préposition (discuss with) et un complément différent ; « manage » signifierait « gérer l'accueil », ce qui n'a pas de sens ici ; « participate » nécessite « in » et ne convient pas à un lieu."
+              "explanation": "« contact the reception desk » est la collocation naturelle pour dire « prendre contact avec l'accueil ». « discuss » appelle une préposition (discuss with) et un complément différent ; « manage » signifierait « gérer l'accueil », ce qui n'a pas de sens ici ; « participate » nécessite « in » et ne convient pas à un lieu."
             },
             {
               "num": 3,
               "type": "insertion",
               "options": [
-                "Veuillez noter que du bruit et de la poussière pourront être présents dans le bâtiment pendant les heures de travail.",
-                "Le pique-nique de l'entreprise aura lieu dans la cour le mois prochain.",
-                "Toutes les salles de réunion ont récemment été redécorées avec du nouveau mobilier.",
-                "Les employés sont invités à soumettre leurs notes de frais avant vendredi."
+                "Please note that noise and dust may be present in the building during working hours.",
+                "The company picnic will be held in the courtyard next month.",
+                "All conference rooms have recently been redecorated with new furniture.",
+                "Employees are reminded to submit their expense reports by Friday."
               ],
               "correct": 0,
-              "explanation": "La phrase doit assurer la cohérence entre l'annonce des travaux et les excuses qui suivent (« nous vous prions de nous excuser pour la gêne occasionnée »). Seule la phrase sur le bruit et la poussière justifie logiquement des excuses. Les trois autres options introduisent des sujets sans lien (pique-nique, mobilier déjà neuf — ce qui contredit l'idée de travaux en cours —, notes de frais)."
+              "explanation": "La phrase doit assurer la cohérence entre l'annonce des travaux et les excuses qui suivent (« We apologize for any inconvenience »). Seule la phrase sur le bruit et la poussière justifie logiquement des excuses. Les trois autres options introduisent des sujets sans lien (pique-nique, mobilier déjà neuf — ce qui contredit l'idée de travaux en cours —, notes de frais)."
             },
             {
               "num": 4,
@@ -3679,8 +3679,8 @@
         },
         {
           "label": "PASSAGE 2 — QUESTIONS 5–8",
-          "meta": "Note de service · De : Direction Marketing · Objet : Réunion de lancement produit",
-          "text": "Ceci est un rappel : la réunion visant à finaliser les plans de lancement de notre nouvelle gamme de produits ⟦5⟧ lieu ce jeudi à 10 heures dans la grande salle de réunion.\n\nTous les chefs d'équipe sont ⟦6⟧ d'apporter un résumé de l'avancement de leur service afin que nous puissions évaluer notre degré de préparation avant la date de lancement.\n\n⟦7⟧\n\nMerci de veiller à ce que vos présentations ne dépassent pas dix minutes, afin de laisser suffisamment de temps pour la discussion.\n\nSi vous ne pouvez pas assister à la réunion, merci d'en informer mon assistant aussi ⟦8⟧ que possible.",
+          "meta": "Memo · From: Marketing Director · Subject: Product Launch Meeting",
+          "text": "This is a reminder that the meeting to finalize plans for the launch of our new product line ⟦5⟧ take place this Thursday at 10 a.m. in the main boardroom.\n\nAll team leaders are ⟦6⟧ to bring a summary of their department's progress so that we can review overall readiness ahead of the launch date.\n\n⟦7⟧\n\nPlease make sure your presentations are no longer than ten minutes so that we have adequate time for discussion.\n\nShould you be unable to attend, kindly notify my assistant as ⟦8⟧ as possible.",
           "questions": [
             {
               "num": 5,
@@ -3692,7 +3692,7 @@
                 "would"
               ],
               "correct": 0,
-              "explanation": "« will take place » exprime un événement planifié et certain dans le futur (« ce jeudi »). C'est le modal attendu devant l'expression figée « take place ». « is » demanderait la forme « is taking place » ; « does » ne se combine pas ainsi avec un sujet à la troisième personne du singulier dans ce contexte ; « would » impliquerait une hypothèse, non une certitude annoncée."
+              "explanation": "« will take place » exprime un événement planifié et certain dans le futur (« this Thursday »). C'est le modal attendu devant l'expression figée « take place ». « is » demanderait la forme « is taking place » ; « does » ne se combine pas ainsi avec un sujet à la troisième personne du singulier dans ce contexte ; « would » impliquerait une hypothèse, non une certitude annoncée."
             },
             {
               "num": 6,
@@ -3710,13 +3710,13 @@
               "num": 7,
               "type": "insertion",
               "options": [
-                "Le temps sera limité, merci donc de préparer des présentations concises axées sur les chiffres clés.",
-                "Le produit sera officiellement lancé dans six mois.",
-                "Des rafraîchissements seront servis pendant la pause déjeuner.",
-                "Le budget marketing a été réduit de 10 % ce trimestre."
+                "Time will be limited, so please prepare concise presentations focused on key figures.",
+                "The product will officially launch in six months.",
+                "Refreshments will be served during the lunch break.",
+                "The marketing budget has been cut by 10 percent this quarter."
               ],
               "correct": 0,
-              "explanation": "Cette phrase doit annoncer la contrainte de temps qui justifie la consigne suivante (« vos présentations ne dépassent pas dix minutes »). Seule l'option sur le temps limité crée ce lien logique. Les autres phrases introduisent des informations sans rapport direct avec la consigne qui suit."
+              "explanation": "Cette phrase doit annoncer la contrainte de temps qui justifie la consigne suivante (« your presentations are no longer than ten minutes »). Seule l'option sur le temps limité crée ce lien logique. Les autres phrases introduisent des informations sans rapport direct avec la consigne qui suit."
             },
             {
               "num": 8,
@@ -3728,14 +3728,14 @@
                 "quickly"
               ],
               "correct": 0,
-              "explanation": "« as soon as possible » est une expression figée signifiant « dès que possible ». « fast » et « quick » sont des adjectifs qui ne s'insèrent pas dans cette structure ; « quickly », bien qu'adverbe, ne forme pas l'expression consacrée employée ici — « as soon as possible » reste la formule idiomatique attendue."
+              "explanation": "« as soon as possible » est une expression figée signifiant « dès que possible ». « fast » et « quick » sont des adjectifs qui ne s'insèrent pas dans cette structure ; « quickly » ne forme pas l'expression consacrée employée ici — « as soon as possible » reste la formule idiomatique attendue."
             }
           ]
         },
         {
           "label": "PASSAGE 3 — QUESTIONS 9–12",
-          "meta": "Avis affiché · Objet : Arrangements temporaires de stationnement",
-          "text": "AVIS : ARRANGEMENTS TEMPORAIRES DE STATIONNEMENT\n\nEn raison des travaux de réfection du parking du personnel, les places seront ⟦9⟧ du lundi 14 septembre au vendredi 18 septembre.\n\nLes employés sont invités à se garer dans la zone temporaire située derrière l'entrepôt, spécialement ⟦10⟧ à cet effet.\n\n⟦11⟧\n\nLe personnel ayant besoin d'aide pour localiser la zone temporaire peut contacter le service de sécurité du bâtiment.\n\nNous vous remercions par avance de votre coopération et de votre compréhension ⟦12⟧ ces travaux de maintenance nécessaires.",
+          "meta": "Notice · Subject: Temporary Parking Arrangements",
+          "text": "NOTICE: TEMPORARY PARKING ARRANGEMENTS\n\nDue to the resurfacing of the staff car park, spaces will be ⟦9⟧ from Monday, September 14 to Friday, September 18.\n\nEmployees are asked to park in the temporary area behind the warehouse, which has been specially ⟦10⟧ for this purpose.\n\n⟦11⟧\n\nStaff who require assistance locating the temporary area should contact building security.\n\nWe thank you in advance for your cooperation and understanding ⟦12⟧ this necessary maintenance work.",
           "questions": [
             {
               "num": 9,
@@ -3765,13 +3765,13 @@
               "num": 11,
               "type": "insertion",
               "options": [
-                "Une signalisation claire sera installée pour guider les conducteurs vers la zone temporaire.",
-                "Le parking sera définitivement fermé à l'issue de ce projet.",
-                "De nouveaux badges de stationnement seront délivrés à tous les employés l'année prochaine.",
-                "Des cartes de transport en commun à tarif réduit sont disponibles ce mois-ci."
+                "Clear signage will be installed to direct drivers to the temporary area.",
+                "The car park will be permanently closed once this project is complete.",
+                "New parking permits will be issued to all employees next year.",
+                "Discounted public transport passes are available this month."
               ],
               "correct": 0,
-              "explanation": "La phrase doit préparer logiquement la suivante, qui évoque une aide pour « localiser la zone temporaire » : l'installation d'une signalisation est cohérente avec ce besoin d'orientation. Les autres options évoquent une fermeture définitive (contredit le mot « temporaire »), de nouveaux badges (hors sujet et hors délai) ou des transports en commun (sans lien)."
+              "explanation": "La phrase doit préparer logiquement la suivante, qui évoque une aide pour « locating the temporary area » : l'installation d'une signalisation est cohérente avec ce besoin d'orientation. Les autres options évoquent une fermeture définitive (contredit le mot « temporary »), de nouveaux badges (hors sujet et hors délai) ou des transports en commun (sans lien)."
             },
             {
               "num": 12,
@@ -3783,14 +3783,14 @@
                 "despite"
               ],
               "correct": 0,
-              "explanation": "« during » est une préposition suivie directement d'un groupe nominal (« these necessary maintenance works »), ce qui convient ici. « while » est une conjonction qui exige une proposition avec sujet et verbe ; « for » indiquerait plutôt une durée chiffrée ; « despite » signifierait « malgré », ce qui inverserait le sens voulu."
+              "explanation": "« during » est une préposition suivie directement d'un groupe nominal (« this necessary maintenance work »), ce qui convient ici. « while » est une conjonction qui exige une proposition avec sujet et verbe ; « for » indiquerait plutôt une durée chiffrée ; « despite » signifierait « malgré », ce qui inverserait le sens voulu."
             }
           ]
         },
         {
           "label": "PASSAGE 4 — QUESTIONS 13–16",
-          "meta": "Lettre d'information interne · Bilan trimestriel",
-          "text": "LETTRE D'INFORMATION — BILAN TRIMESTRIEL\n\nNous sommes heureux d'annoncer que les ventes ont ⟦13⟧ de 18 % par rapport à la même période l'an dernier, l'un des meilleurs trimestres de l'histoire de l'entreprise.\n\nCette croissance est en grande partie ⟦14⟧ au succès de notre nouvelle plateforme de commande en ligne, qui a attiré un nombre important de nouveaux clients.\n\n⟦15⟧\n\nL'équipe des opérations mérite une reconnaissance particulière pour s'être adaptée aussi rapidement à la hausse de la demande.\n\nPour l'avenir, la direction reste confiante quant à la poursuite de cette tendance positive ⟦16⟧ les prochains trimestres.",
+          "meta": "Newsletter · Subject: Quarterly Update",
+          "text": "COMPANY NEWSLETTER — QUARTERLY UPDATE\n\nWe are delighted to report that sales ⟦13⟧ by 18 percent compared to the same period last year, marking one of the strongest quarters in the company's history.\n\nThis growth is largely ⟦14⟧ to the success of our new online ordering platform, which has attracted a significant number of first-time customers.\n\n⟦15⟧\n\nThe operations team deserves particular recognition for adapting so quickly to increased demand.\n\nLooking ahead, management remains confident that this positive trend will continue ⟦16⟧ the coming quarters.",
           "questions": [
             {
               "num": 13,
@@ -3802,7 +3802,7 @@
                 "increasing"
               ],
               "correct": 1,
-              "explanation": "Il s'agit d'un fait chiffré et achevé, comparé à une période précise du passé (« par rapport à la même période l'an dernier ») : le prétérit « increased » convient pour ce type de bilan factuel. « increase » est la base verbale, sans marque de temps ; « have been increasing » insisterait sur une évolution continue plutôt qu'un résultat chiffré ponctuel ; « increasing » seul ne peut pas fonctionner comme verbe conjugué."
+              "explanation": "Il s'agit d'un fait chiffré et achevé, comparé à une période précise du passé (« compared to the same period last year ») : le prétérit « increased » convient pour ce type de bilan factuel. « increase » est la base verbale, sans marque de temps ; « have been increasing » insisterait sur une évolution continue plutôt qu'un résultat chiffré ponctuel ; « increasing » seul ne peut pas fonctionner comme verbe conjugué."
             },
             {
               "num": 14,
@@ -3820,13 +3820,13 @@
               "num": 15,
               "type": "insertion",
               "options": [
-                "Cette réussite reflète l'engagement de tous les services de l'entreprise.",
-                "Les objectifs de l'année prochaine seront annoncés lors de l'assemblée générale.",
-                "Malheureusement, les réclamations clients ont fortement augmenté ce trimestre.",
-                "L'entreprise prévoit de déménager son siège social d'ici deux ans."
+                "This achievement reflects the hard work of every department across the company.",
+                "Next year's targets will be announced at the annual general meeting.",
+                "Unfortunately, customer complaints have risen sharply this quarter.",
+                "The company plans to relocate its headquarters within two years."
               ],
               "correct": 0,
-              "explanation": "La phrase doit amener logiquement la mention suivante qui félicite un service en particulier (« l'équipe des opérations »). Parler de l'engagement de « tous les services » crée la transition naturelle vers la reconnaissance d'un service précis. Les autres options rompent le ton positif du texte ou introduisent des sujets sans lien avec la phrase suivante."
+              "explanation": "La phrase doit amener logiquement la mention suivante qui félicite un service en particulier (« The operations team deserves particular recognition »). Parler de l'engagement de « every department » crée la transition naturelle vers la reconnaissance d'un service précis. Les autres options rompent le ton positif du texte ou introduisent des sujets sans lien avec la phrase suivante."
             },
             {
               "num": 16,
