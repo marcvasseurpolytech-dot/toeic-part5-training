@@ -42,5 +42,11 @@
       "unlocked": false,
       "unlock_date": null
     }
+  },
+  "tests_p6": {
+    "1": {
+      "unlocked": true,
+      "unlock_date": null
+    }
   }
 }
