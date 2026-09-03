@@ -1,6 +1,6 @@
 {
   "closed": false,
-  "updated_at": "2026-09-03T09:44:31.564Z",
+  "updated_at": "2026-09-02T15:52:20.733Z",
   "tests": {
     "1": {
       "unlocked": true,
@@ -81,6 +81,28 @@
       "unlock_date": null
     },
     "10": {
+      "unlocked": false,
+      "unlock_date": null
+    }
+  },
+  "tests_mini": {
+    "1": {
+      "unlocked": false,
+      "unlock_date": null
+    },
+    "2": {
+      "unlocked": false,
+      "unlock_date": null
+    },
+    "3": {
+      "unlocked": false,
+      "unlock_date": null
+    },
+    "4": {
+      "unlocked": false,
+      "unlock_date": null
+    },
+    "5": {
       "unlocked": false,
       "unlock_date": null
     }
