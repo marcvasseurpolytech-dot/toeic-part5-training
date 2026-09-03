@@ -1,6 +1,6 @@
 {
   "closed": false,
-  "updated_at": "2026-09-02T15:52:20.733Z",
+  "updated_at": "2026-09-03T12:25:54.032Z",
   "tests": {
     "1": {
       "unlocked": true,
@@ -87,7 +87,7 @@
   },
   "tests_mini": {
     "1": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "2": {
