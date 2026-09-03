@@ -3843,6 +3843,2022 @@
           ]
         }
       ]
+    },
+    "2": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: All Staff · From: Human Resources · Subject: Office Relocation Update",
+          "text": "Dear Team,\n\nWe are writing to inform you that our offices ⟦1⟧ to the new building on Riverside Avenue on October 5th. The move has been planned carefully to minimize disruption to our daily operations.\n\nPlease make sure all personal belongings are ⟦2⟧ before the end of the day on October 4th, as the moving company will begin packing early the following morning.\n\n⟦3⟧\n\nWe understand that this transition may cause some inconvenience, and we appreciate your patience and flexibility during this period.\n\nIf you have any questions about the move, please do not hesitate to contact the HR department ⟦4⟧ further information.\n\nBest regards,\nHuman Resources",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "moved",
+                "will move",
+                "has moved",
+                "was moving"
+              ],
+              "correct": 1,
+              "explanation": "La date précise donnée (« on October 5th ») annonce un événement futur planifié : le futur simple « will move » convient. « moved » (simple past) est incompatible avec un événement à venir ; « has moved » (present perfect) supposerait une action déjà achevée ; « was moving » (past continuous) situerait l'action dans le passé."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "remove",
+                "removed",
+                "removing",
+                "removal"
+              ],
+              "correct": 1,
+              "explanation": "Après « are », on attend un participe passé pour former le passif : « are removed » (sont retirés/emportés). « remove » est la base verbale ; « removing » est une forme en -ing incompatible après « are » sans objet ; « removal » est un nom, impossible après « are »."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Movers will begin loading furniture and equipment at 7 a.m. sharp.",
+                "The cafeteria will offer a new lunch menu starting next week.",
+                "All employees must complete their annual performance review by Friday.",
+                "The company picnic has been rescheduled due to weather concerns."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter un détail concret sur le déroulement du déménagement, dans la continuité de la phrase précédente sur l'emballage anticipé. Seule l'option sur l'heure de début du chargement s'inscrit dans cette logique. Les autres options n'ont pas de lien avec le déménagement des bureaux."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "for",
+                "at",
+                "to",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« contact the HR department for further information » signifie « contacter le service RH pour plus d'informations ». « at » s'utiliserait devant un numéro de poste ou une adresse, « to » et « with » ne sont pas les prépositions attendues dans cette collocation exprimant un but."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: IT Department · Subject: Mandatory Software Update",
+          "text": "This is to confirm that all company laptops ⟦5⟧ receive a mandatory security update this weekend. The update will improve system performance and protect against recent security threats.\n\nEmployees are ⟦6⟧ to save all open files and shut down their computers before leaving the office on Friday evening, as the update will be installed automatically overnight.\n\n⟦7⟧\n\nIf your computer does not restart properly on Monday morning, please contact the IT helpdesk immediately.\n\nWe appreciate your cooperation in keeping our systems secure ⟦8⟧ up to date.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will",
+                "may",
+                "can",
+                "should"
+              ],
+              "correct": 0,
+              "explanation": "Le verbe « confirm » en début de mémo indique une certitude, non une simple possibilité : le modal « will » convient donc pour annoncer un événement certain. « may » et « can » expriment la possibilité, « should » une recommandation — aucun ne correspond au degré de certitude signalé par « confirm »."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "ask",
+                "asked",
+                "asking",
+                "asks"
+              ],
+              "correct": 1,
+              "explanation": "Après « are », on attend un participe passé pour former le passif : « are asked to save » (sont priés de sauvegarder). « ask » est la base verbale ; « asking » est une forme en -ing incompatible ; « asks » est conjugué au présent, impossible après « are »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "The update should take approximately twenty minutes to complete.",
+                "New printers will be installed in the main office next month.",
+                "Employees can request additional software licenses from their manager.",
+                "The company intranet will undergo scheduled maintenance next week."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une information pratique sur la durée de l'opération décrite, avant que le texte n'aborde ce qu'il faut faire si l'ordinateur ne redémarre pas correctement. Seule l'option sur la durée de la mise à jour s'inscrit dans cette logique. Les autres options n'ont pas de lien direct avec la mise à jour."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "« keeping our systems secure and up to date » relie deux qualités complémentaires dans une structure additive. « but » introduirait une opposition, « or » une alternative, « so » une conséquence — aucun ne convient pour relier deux adjectifs complémentaires de cette manière."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Lift Out of Service",
+          "text": "NOTICE: LIFT OUT OF SERVICE\n\nPlease be advised that the main lift in Building B will be ⟦9⟧ for scheduled maintenance from Monday to Wednesday of next week.\n\nDuring this period, visitors and staff are kindly asked to use the stairs or the lift in Building A, which remains fully ⟦10⟧.\n\n⟦11⟧\n\nWe apologize for any inconvenience and thank you for your understanding while this essential maintenance is carried out.\n\nFor urgent access needs, please contact building security ⟦12⟧ ext. 110.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "vocab",
+              "options": [
+                "closed",
+                "open",
+                "closing",
+                "closure"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« scheduled maintenance ») indique que l'ascenseur ne pourra pas être utilisé : « closed » (fermé) est donc attendu. « open » est le contraire du sens recherché ; « closing » suggérerait une action en cours plutôt qu'un état ; « closure » est un nom, impossible après « be » sans article."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "operate",
+                "operational",
+                "operating",
+                "operation"
+              ],
+              "correct": 1,
+              "explanation": "Après « remains fully », on attend un adjectif : « remains fully operational » (reste pleinement opérationnel). « operate » est la base verbale ; « operating » fonctionnerait plutôt comme adjectif devant un nom (an operating system) mais pas après « remains fully » dans ce sens d'état ; « operation » est un nom."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Signs will be posted near the affected lift to guide visitors to the alternative route.",
+                "The company will host a safety training session next Friday.",
+                "New carpeting will be installed throughout the building this summer.",
+                "All meeting rooms must be booked in advance through the online system."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une précision pratique sur la manière dont les visiteurs seront guidés vers l'ascenseur alternatif mentionné juste avant. Seule l'option sur la signalisation répond à cette logique. Les autres options n'ont pas de lien direct avec la fermeture de l'ascenseur."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "at",
+                "in",
+                "on",
+                "for"
+              ],
+              "correct": 0,
+              "explanation": "« contact building security at ext. 110 » utilise la préposition « at » devant un numéro de poste téléphonique. « in », « on » et « for » ne sont pas les prépositions attendues avec un numéro de poste dans cette structure."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Monthly Sales Update",
+          "text": "COMPANY NEWSLETTER — MONTHLY SALES UPDATE\n\nWe are pleased to share that our sales team ⟦13⟧ their monthly target for the third consecutive month, driven largely by strong demand in the European market.\n\nThis success is ⟦14⟧ to the hard work of our regional representatives, who have built lasting relationships with key clients.\n\n⟦15⟧\n\nThe customer service team also deserves credit for maintaining high satisfaction ratings throughout this busy period.\n\nWe look forward to building on this momentum ⟦16⟧ the final quarter of the year.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "exceed",
+                "exceeded",
+                "have exceeded",
+                "exceeding"
+              ],
+              "correct": 2,
+              "explanation": "« for the third consecutive month » signale une répétition dont l'effet se poursuit jusqu'au moment présent, ce qui appelle le present perfect : « have exceeded ». « exceed » est la base verbale sans marque de temps ; « exceeded » (simple past) situerait l'action uniquement dans le passé sans insister sur cette continuité ; « exceeding » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "vocab",
+              "options": [
+                "due",
+                "similar",
+                "related",
+                "likely"
+              ],
+              "correct": 0,
+              "explanation": "« due to » est l'expression figée signifiant « en raison de, grâce à ». « similar to » signifierait « semblable à » ; « related to » (lié à) est plus vague et moins naturel dans un bilan de résultats ; « likely to » exigerait un verbe à l'infinitif après, structure différente de celle de la phrase."
+            },
+            {
+              "num": 15,
+              "type": "insertion",
+              "options": [
+                "This achievement reflects the dedication of every member of the sales division.",
+                "The company plans to open two new offices next year.",
+                "Unfortunately, shipping delays have affected several key accounts.",
+                "Employee training sessions will resume in the new year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit amener logiquement la mention suivante qui félicite une autre équipe (le service client). Parler de l'engagement de « every member of the sales division » crée cette transition. Les autres options rompent le ton positif du texte ou introduisent des sujets sans lien direct."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "during",
+                "into",
+                "for",
+                "despite"
+              ],
+              "correct": 0,
+              "explanation": "« building on this momentum during the final quarter » signifie « pendant le dernier trimestre ». « into » suggérerait un prolongement vers l'intérieur d'une période plutôt qu'une action se déroulant pendant celle-ci ; « for » indiquerait une durée chiffrée ; « despite » signifierait « malgré », ce qui inverserait le sens."
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: Sarah Whitfield · From: IT Support · Subject: New Employee Account Setup",
+          "text": "Dear Sarah,\n\nWelcome to the company! Your new employee account ⟦1⟧ been created, and you will receive your login credentials by email within the next 24 hours.\n\nOnce you have logged in for the first time, you will be ⟦2⟧ to change your temporary password and set up two-factor authentication.\n\n⟦3⟧\n\nIf you experience any difficulty accessing your account, please do not hesitate to contact the IT helpdesk at extension 220.\n\nWe look forward to working ⟦4⟧ you.\n\nBest regards,\nIT Support",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "has",
+                "have",
+                "is",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "Le sujet « Your new employee account » est singulier, donc l'auxiliaire du present perfect passif est « has » : « has been created ». « have » conviendrait à un sujet pluriel ; « is » donnerait un présent simple passif (« is created »), ce qui ne correspond pas au sens d'une action déjà réalisée ; « was » (passé simple) est possible grammaticalement mais moins adapté ici car le present perfect relie l'action à sa conséquence actuelle (« you will receive »)."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "require",
+                "required",
+                "requiring",
+                "requirement"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé pour former le futur passif : « will be required to change ». « require » est la base verbale ; « requiring » est une forme en -ing incompatible ici ; « requirement » est un nom, impossible après « be »."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "This additional layer of security helps protect your personal information.",
+                "The company cafeteria offers a discount for new employees.",
+                "All staff meetings are held in the third-floor conference room.",
+                "Employees are encouraged to join the company sports club."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit expliquer l'intérêt de la mesure décrite juste avant (« set up two-factor authentication »). Seule l'option sur la sécurité crée ce lien logique direct. Les trois autres phrases abordent des sujets sans rapport avec l'authentification (cafétéria, réunions, club de sport)."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "with",
+                "for",
+                "to",
+                "at"
+              ],
+              "correct": 0,
+              "explanation": "« work with someone » est la collocation standard pour dire « travailler avec quelqu'un » dans un contexte de collaboration. « for » signifierait « travailler pour quelqu'un » (relation hiérarchique), « to » et « at » ne sont pas les prépositions attendues après « work » dans ce sens."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Finance Department · Subject: Expense Report Deadline",
+          "text": "This is a reminder that all expense reports for last month ⟦5⟧ be submitted no later than Friday, June 12th.\n\nReports received after this date will not be processed until the following month's reimbursement cycle, so employees are strongly encouraged to submit their claims ⟦6⟧.\n\n⟦7⟧\n\nPlease attach original receipts for all expenses exceeding $25, as claims without supporting documentation cannot be approved.\n\nFor questions regarding the reimbursement process, contact the Finance Department ⟦8⟧ finance@company.com.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "must",
+                "might",
+                "could",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« Reports received after this date will not be processed ») indique une obligation stricte avec conséquence en cas de non-respect. « must » exprime cette obligation. « might », « could » et « would » expriment la possibilité ou l'hypothèse, ce qui ne correspond pas à une date limite impérative."
+            },
+            {
+              "num": 6,
+              "type": "vocab",
+              "options": [
+                "promptly",
+                "promptness",
+                "prompted",
+                "prompt"
+              ],
+              "correct": 0,
+              "explanation": "Après un verbe comme « submit », on attend un adverbe pour modifier l'action : « submit their claims promptly » (rapidement). « promptness » est un nom ; « prompted » est un verbe conjugué au passé ; « prompt » est un adjectif ou un nom, aucun ne convient après un verbe conjugué à cette position."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "Late submissions create additional administrative work for the entire finance team.",
+                "The company will organize a team-building event next quarter.",
+                "New parking spaces have been added near the main entrance.",
+                "The annual budget review will take place in September."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit justifier pourquoi les employés sont encouragés à soumettre leurs notes de frais rapidement. Seule l'option sur la charge administrative supplémentaire créée par les retards prolonge logiquement cette idée. Les autres phrases n'ont aucun lien avec le sujet des notes de frais."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "at",
+                "in",
+                "on",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "« contact someone at [adresse email] » utilise la préposition « at » devant une adresse électronique, tout comme devant un numéro de poste. « in », « on » et « by » ne sont pas les prépositions employées avec une adresse e-mail dans cette structure."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Scheduled Fire Drill",
+          "text": "NOTICE: SCHEDULED FIRE DRILL\n\nPlease be informed that a mandatory fire drill ⟦9⟧ take place this Thursday at 2:00 p.m. All employees must evacuate the building promptly when the alarm sounds.\n\nUpon exiting, staff should proceed directly to the assembly point in the parking lot, where team leaders will conduct a headcount to ensure everyone has been safely ⟦10⟧.\n\n⟦11⟧\n\nEmployees who require assistance during the evacuation should inform their supervisor in advance.\n\nWe appreciate your cooperation in making this drill a success and thank you ⟦12⟧ your attention to this important safety procedure.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "grammar",
+              "options": [
+                "will",
+                "is",
+                "does",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "« will take place » annonce un événement futur planifié et certain (« this Thursday at 2:00 p.m. »). « is » exigerait la forme « is taking place » ; « does » ne se combine pas ainsi avec ce sujet ; « would » suggérerait une hypothèse plutôt qu'un fait annoncé."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "account",
+                "accounted",
+                "accounting",
+                "accountable"
+              ],
+              "correct": 1,
+              "explanation": "Après « has been safely », on attend un participe passé pour compléter le passif : « has been safely accounted for » (a été comptabilisé, recensé). « account » est la base verbale ; « accounting » est une forme en -ing incompatible ici ; « accountable » est un adjectif qui changerait le sens de la phrase (responsable, plutôt que compté)."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Please remain calm and walk, rather than run, toward the nearest exit.",
+                "The cafeteria menu will feature a new selection of salads this week.",
+                "Employees are reminded to update their emergency contact information.",
+                "The IT department will perform system maintenance this weekend."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit s'inscrire dans le contexte de la procédure d'évacuation décrite avant et après (assembly point, headcount). Seule l'option rappelant de rester calme et de marcher vers la sortie est cohérente avec ce sujet. Les autres phrases n'ont aucun lien avec l'exercice d'incendie."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "for",
+                "of",
+                "to",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« thank someone for something » est la structure fixe pour remercier quelqu'un pour une action ou une qualité. « of », « to » et « with » ne s'utilisent pas dans cette collocation après « thank »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: New Product Launch Success",
+          "text": "COMPANY NEWSLETTER — PRODUCT LAUNCH UPDATE\n\nWe are excited to announce that our new line of eco-friendly packaging ⟦13⟧ extremely well since its launch three weeks ago, exceeding initial sales projections by over 30 percent.\n\nCustomer feedback has been overwhelmingly positive, with many clients praising the product's ⟦14⟧ to reduce environmental impact without compromising quality.\n\n⟦15⟧\n\nThe design and production teams collaborated closely throughout the development process, ensuring that every detail met our sustainability standards.\n\nWe are confident that this momentum will continue ⟦16⟧ the coming months as awareness of the product spreads.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "sell",
+                "sold",
+                "has sold",
+                "is selling"
+              ],
+              "correct": 3,
+              "explanation": "L'action décrite est en cours et continue depuis le lancement (« since its launch three weeks ago »), avec un aspect dynamique et progressif renforcé par « exceeding initial sales projections » : le présent progressif « is selling » convient pour une tendance qui se poursuit actuellement. « sell » est la base verbale sans marque de temps ; « sold » est un simple passé, incompatible avec une action toujours en cours ; « has sold » insisterait sur un résultat achevé plutôt que sur une tendance continue."
+            },
+            {
+              "num": 14,
+              "type": "vocab",
+              "options": [
+                "ability",
+                "able",
+                "enable",
+                "ably"
+              ],
+              "correct": 0,
+              "explanation": "Après « the product's », on attend un nom pour compléter le groupe nominal : « the product's ability to reduce » (la capacité du produit à réduire). « able » est un adjectif, « enable » un verbe, « ably » un adverbe — aucun ne peut suivre directement un possessif comme « the product's »."
+            },
+            {
+              "num": 15,
+              "type": "insertion",
+              "options": [
+                "This achievement reflects months of careful planning and innovation.",
+                "The marketing team will attend a conference in Chicago next month.",
+                "Employees can now order office supplies through a new online portal.",
+                "The company's headquarters will be renovated later this year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit introduire la mention suivante sur la collaboration des équipes de conception et de production. Seule l'option évoquant des mois de planification et d'innovation crée cette transition logique. Les autres options abordent des sujets sans lien direct (conférence, fournitures, rénovation)."
+            },
+            {
+              "num": 16,
+              "type": "grammar",
+              "options": [
+                "into",
+                "inside",
+                "on",
+                "upon"
+              ],
+              "correct": 0,
+              "explanation": "« continue into the coming months » exprime le prolongement d'une tendance vers une période future. « inside » indiquerait un lieu, non une durée ; « on » et « upon » ne s'emploient pas avec « continue » pour introduire une période à venir."
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: Conference Attendees · From: Events Team · Subject: Registration Confirmation",
+          "text": "Dear Attendee,\n\nThank you for registering for the Annual Business Leadership Conference. Your registration ⟦1⟧ successfully processed, and a confirmation has been sent to the email address you provided.\n\nThe conference will be ⟦2⟧ at the Grand Hotel Conference Center from October 10th to October 12th. Please arrive at least 30 minutes early on the first day to collect your badge.\n\n⟦3⟧\n\nA detailed schedule of sessions and speakers will be made available on our website one week before the event.\n\nShould you need to cancel or modify your registration, please notify us ⟦4⟧ September 30th.\n\nBest regards,\nEvents Team",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "has",
+                "have",
+                "is",
+                "was"
+              ],
+              "correct": 2,
+              "explanation": "Le sujet « Your registration » est singulier et l'action est présentée comme un fait actuel confirmé (« a confirmation has been sent »), ce qui appelle un présent simple passif : « is processed ». « has »/« have » supposeraient un present perfect mal formé sans participe (« has processed » aurait un sens actif différent) ; « was » placerait l'action uniquement dans le passé sans lien avec le présent, moins cohérent avec la phrase suivante au present perfect."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "hold",
+                "held",
+                "holding",
+                "holds"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé pour former le futur passif : « will be held » (aura lieu). « hold » est la base verbale ; « holding » est une forme en -ing incompatible ; « holds » est conjugué au présent, impossible après « be »."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Badges will not be issued without valid photo identification.",
+                "The hotel offers a discounted rate for conference attendees.",
+                "Parking is available in the underground garage for a small fee.",
+                "Refreshments will be served during each networking break."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser une exigence liée à la collecte du badge mentionnée juste avant. Seule l'option sur l'identification avec photo est directement liée à cette étape administrative. Les autres phrases, bien que plausibles dans un autre contexte, n'ont pas de lien logique direct avec cette phrase précise."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "before",
+                "until",
+                "during",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "« notify us before September 30th » signifie « nous informer avant le 30 septembre », soit une date limite. « until » indiquerait une action continue jusqu'à cette date, ce qui ne convient pas à une notification ponctuelle ; « during » s'utilise avec une période, non une date limite ; « since » indiquerait une origine temporelle passée."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Human Resources · Subject: Updated Dress Code Policy",
+          "text": "Effective next Monday, the company ⟦5⟧ implement a revised dress code policy applicable to all departments.\n\nEmployees who interact directly with clients are ⟦6⟧ to wear business formal attire, while staff working exclusively in back-office roles may wear business casual clothing.\n\n⟦7⟧\n\nThis change reflects feedback gathered during last quarter's employee satisfaction survey.\n\nA full copy of the updated policy, including illustrated examples, is available ⟦8⟧ the employee portal.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will",
+                "is",
+                "does",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "« Effective next Monday » annonce un changement futur certain : le modal « will » convient pour exprimer cette décision planifiée. « is » exigerait « is implementing » ; « does » ne se combine pas ainsi avec ce sujet ; « would » suggérerait une hypothèse plutôt qu'une décision confirmée."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "expect",
+                "expected",
+                "expecting",
+                "expectation"
+              ],
+              "correct": 1,
+              "explanation": "La structure passive « are expected to wear » signifie « sont tenus de porter ». « expect » est la base verbale ; « expecting » est une forme en -ing incompatible après « are » sans objet ; « expectation » est un nom qui ne peut pas suivre directement « are »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "Casual Fridays will remain unaffected by this new policy.",
+                "The company cafeteria will be closed for renovations next week.",
+                "All employees must complete a cybersecurity training course by June.",
+                "The annual holiday party will be held at a new venue this year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit clarifier un point resté en suspens dans le texte sur le code vestimentaire, en précisant qu'un aspect existant (les vendredis décontractés) n'est pas affecté par ce changement. Les autres options abordent des sujets sans rapport avec la politique vestimentaire."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "on",
+                "at",
+                "in",
+                "to"
+              ],
+              "correct": 0,
+              "explanation": "« available on the employee portal » est la collocation standard pour indiquer qu'une ressource se trouve sur une plateforme numérique. « at », « in » et « to » ne sont pas les prépositions attendues avec « portal » dans ce sens."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Photocopier Temporarily Out of Service",
+          "text": "NOTICE: PHOTOCOPIER OUT OF SERVICE\n\nThe photocopier on the second floor is currently ⟦9⟧ due to a mechanical fault and will remain out of service until a technician can complete repairs.\n\nIn the meantime, employees are asked to use the photocopier located in the first-floor mailroom, which has been ⟦10⟧ checked and is functioning normally.\n\n⟦11⟧\n\nWe expect the second-floor machine to be repaired within two business days.\n\nWe apologize for any inconvenience and appreciate your patience ⟦12⟧ this matter is resolved.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "vocab",
+              "options": [
+                "unavailable",
+                "available",
+                "unavailability",
+                "avail"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« due to a mechanical fault ») indique que l'appareil ne peut pas être utilisé : « unavailable » (indisponible) est donc attendu. « available » est le contraire du sens recherché ; « unavailability » est un nom, impossible après « is » sans article ; « avail » est un mot rare, inadapté ici."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "recent",
+                "recently",
+                "recentness",
+                "recency"
+              ],
+              "correct": 1,
+              "explanation": "Avant un participe passé comme « checked », on attend un adverbe : « has been recently checked » (a été récemment vérifié). « recent » est un adjectif qui ne peut pas modifier un verbe ; « recentness » et « recency » sont des noms, incompatibles à cette position."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Please allow extra time when printing large documents during this period.",
+                "The company will introduce a new expense reporting system next month.",
+                "Staff are reminded to submit vacation requests two weeks in advance.",
+                "A new coffee machine will be installed in the break room next week."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une conséquence pratique liée à l'usage temporaire d'un seul photocopieur pour tout le bâtiment. Seule l'option sur le temps supplémentaire à prévoir pour les grosses impressions est cohérente avec ce contexte. Les autres options n'ont pas de lien avec la situation décrite."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "until",
+                "by",
+                "since",
+                "for"
+              ],
+              "correct": 0,
+              "explanation": "« until this matter is resolved » signifie « jusqu'à ce que cette question soit résolue », exprimant une durée qui se termine à un moment futur incertain. « by » indiquerait une date limite précise ; « since » indiquerait une origine passée ; « for » indiquerait une durée chiffrée, non une échéance conditionnelle."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Employee of the Month Announcement",
+          "text": "COMPANY NEWSLETTER — EMPLOYEE RECOGNITION\n\nWe are pleased to announce that Daniel Reyes ⟦13⟧ this month's Employee of the Month award for his outstanding contribution to the customer service team.\n\nSince joining the company two years ago, Daniel has consistently ⟦14⟧ for his professionalism, patience, and willingness to go above and beyond for clients.\n\n⟦15⟧\n\nHis manager noted that Daniel played a key role in resolving several complex customer issues this quarter.\n\nPlease join us in congratulating Daniel ⟦16⟧ this well-deserved recognition.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "receive",
+                "received",
+                "has received",
+                "receiving"
+              ],
+              "correct": 2,
+              "explanation": "L'annonce porte sur un résultat obtenu dont la pertinence dure jusqu'au moment présent de l'annonce (le mois en cours) : le present perfect « has received » convient. « receive » est la base verbale sans marque de temps ; « received » (simple past) situerait l'action uniquement dans le passé sans lien explicite avec le présent ; « receiving » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "vocab",
+              "options": [
+                "been recognized",
+                "recognize",
+                "recognizing",
+                "recognition"
+              ],
+              "correct": 0,
+              "explanation": "Après « has consistently », on attend un participe passé pour compléter le present perfect passif : « has consistently been recognized for » (a été reconnu pour). « recognize » est la base verbale ; « recognizing » est une forme en -ing incompatible ; « recognition » est un nom, impossible après l'adverbe « consistently » à cette position."
+            },
+            {
+              "num": 15,
+              "type": "insertion",
+              "options": [
+                "Colleagues describe him as a dependable team player who leads by example.",
+                "The company will launch a new customer loyalty program next quarter.",
+                "The next team meeting has been rescheduled to Thursday afternoon.",
+                "The customer service department will move to a larger office soon."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit prolonger la description élogieuse de Daniel entamée dans la phrase précédente et préparer la mention suivante de son manager. Seule l'option sur le témoignage de ses collègues s'inscrit dans cette continuité. Les autres options abordent des sujets sans lien avec Daniel."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "on",
+                "for",
+                "at",
+                "with"
+              ],
+              "correct": 1,
+              "explanation": "« congratulate someone for something » est la structure fixe pour féliciter quelqu'un pour une réussite. « on » se combine plutôt avec certains événements précis (congratulate on your wedding) mais « for » reste la préposition la plus naturelle devant un nom comme « recognition » dans ce contexte professionnel ; « at » et « with » ne s'utilisent pas dans cette collocation."
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "Letter · From: Customer Service Manager · Subject: Response to Your Complaint",
+          "text": "Dear Ms. Turner,\n\nThank you for bringing your recent experience with our delivery service to our attention. We ⟦1⟧ your feedback seriously and have investigated the matter thoroughly.\n\nAfter reviewing your order, we found that the delay was caused by an error in our warehouse system, which has since been ⟦2⟧.\n\n⟦3⟧\n\nAs a gesture of goodwill, we have applied a 20 percent discount to your next order, which you may use at any time within the next six months.\n\nWe value your loyalty and hope to restore your confidence ⟦4⟧ our services.\n\nSincerely,\nCustomer Service Manager",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "take",
+                "took",
+                "taken",
+                "are taking"
+              ],
+              "correct": 3,
+              "explanation": "La lettre exprime une action habituelle et actuelle de l'entreprise, renforcée par la phrase suivante au present perfect (« have investigated »), ce qui appelle un présent progressif traduisant une attitude générale et actuelle : « are taking your feedback seriously ». « take » (base verbale) ne peut pas fonctionner seul comme verbe conjugué à la première personne du pluriel sans -s ; « took » (passé) romprait la cohérence avec le present perfect qui suit ; « taken » est un participe passé, impossible seul comme verbe principal."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "correct",
+                "corrected",
+                "correcting",
+                "correction"
+              ],
+              "correct": 1,
+              "explanation": "Après « has since been », on attend un participe passé pour former le passif : « has since been corrected » (a depuis été corrigée). « correct » est la base verbale ou un adjectif ; « correcting » est une forme en -ing incompatible ; « correction » est un nom, impossible après « been »."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "We have implemented additional checks to prevent similar errors in the future.",
+                "Our warehouse will relocate to a larger facility next year.",
+                "New delivery vehicles will be added to our fleet this summer.",
+                "Customers can now track their orders through our mobile app."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit rassurer la cliente sur les mesures prises à la suite de l'erreur identifiée. Seule l'option sur les contrôles supplémentaires répond directement à cette préoccupation. Les autres options, bien que positives, n'ont pas de lien direct avec l'incident décrit."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "in",
+                "of",
+                "for",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« confidence in something/someone » est la collocation standard signifiant « confiance en ». « of », « for » et « with » ne sont pas les prépositions attendues après « confidence » dans ce sens."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Senior Management · Subject: Departmental Restructuring",
+          "text": "As part of our ongoing efforts to improve efficiency, the Sales and Marketing departments ⟦5⟧ merged into a single division, effective July 1st.\n\nEmployees currently working in either department will be ⟦6⟧ of their new reporting structure by their direct supervisor before the end of this week.\n\n⟦7⟧\n\nWe recognize that organizational changes can create uncertainty, and we are committed to supporting employees throughout this transition.\n\nA dedicated Q&A session will be held next Wednesday for staff to raise questions ⟦8⟧ the restructuring.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will be",
+                "are being",
+                "have been",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "« effective July 1st » indique une date future précise pour une décision déjà prise : le futur passif « will be merged » convient. « are being merged » suggérerait une action en cours au moment présent ; « have been merged » impliquerait que la fusion est déjà achevée ; « were » situerait l'action dans le passé, incompatible avec une date future."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "inform",
+                "informed",
+                "informing",
+                "information"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé : « will be informed of » (seront informés de). « inform » est la base verbale ; « informing » est une forme en -ing incompatible ; « information » est un nom, impossible après « be » sans article."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "No positions will be eliminated as a result of this change.",
+                "The company will host its annual holiday party in December.",
+                "New software will be introduced across all departments next year.",
+                "Employees are reminded to submit their timesheets by Friday."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une précision rassurante directement liée à la restructuration annoncée, avant la phrase suivante qui reconnaît l'incertitude que ce type de changement peut créer. Seule l'option sur le maintien des postes répond à cette logique. Les autres options n'ont pas de lien avec la réorganisation."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "regarding",
+                "regard",
+                "regarded",
+                "regardless"
+              ],
+              "correct": 0,
+              "explanation": "« regarding the restructuring » signifie « concernant la restructuration » et fonctionne comme une préposition devant un nom. « regard » est un nom ou un verbe, « regarded » un participe passé, « regardless » signifie « peu importe » et s'utilise avec « of » — aucun ne convient à cette position."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Building Access Card Renewal",
+          "text": "NOTICE: ACCESS CARD RENEWAL REQUIRED\n\nAll employee access cards ⟦9⟧ expire at the end of this month and must be renewed before September 1st to avoid disruption to building access.\n\nTo renew your card, please visit the security office on the ground floor, where staff will issue a new card ⟦10⟧ a brief verification process.\n\n⟦11⟧\n\nEmployees who fail to renew their card by the deadline may experience delays entering the building.\n\nFor questions about the renewal process, please contact building security ⟦12⟧ security@company.com.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "grammar",
+              "options": [
+                "will",
+                "is",
+                "does",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "L'avis annonce un fait futur certain et planifié (« at the end of this month ») : le modal « will » convient. « is » exigerait « is expiring » ; « does » ne se combine pas ainsi avec ce sujet pluriel ; « would » suggérerait une hypothèse plutôt qu'un fait annoncé."
+            },
+            {
+              "num": 10,
+              "type": "vocab",
+              "options": [
+                "after",
+                "before",
+                "during",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "« issue a new card after a brief verification process » signifie que la carte est délivrée une fois la vérification terminée. « before » inverserait l'ordre logique des événements ; « during » suggérerait que la carte est délivrée pendant la vérification elle-même, ce qui est moins précis ; « since » indiquerait une origine temporelle, inadapté ici."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Please bring a valid photo ID when visiting the security office.",
+                "The building's main entrance will be repainted next month.",
+                "New bicycle racks have been installed near the loading dock.",
+                "The security office will be closed for lunch between noon and 1 p.m."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser une condition pratique pour effectuer le renouvellement décrit juste avant. Seule l'option sur la pièce d'identité est directement liée à la démarche de vérification mentionnée. Les autres options n'ont pas de lien direct avec le renouvellement de la carte."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "at",
+                "on",
+                "in",
+                "to"
+              ],
+              "correct": 0,
+              "explanation": "« contact someone at [adresse email] » utilise la préposition « at » devant une adresse électronique. « on », « in » et « to » ne sont pas les prépositions employées avec une adresse e-mail dans cette structure."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Charity Fundraising Event Results",
+          "text": "COMPANY NEWSLETTER — CHARITY EVENT RECAP\n\nWe are thrilled to report that last Saturday's charity fun run ⟦13⟧ over $15,000 for the local children's hospital, surpassing our original goal by a wide margin.\n\nMore than 200 employees and their families participated, making this year's event the most ⟦14⟧ attended in the program's five-year history.\n\n⟦15⟧\n\nSpecial thanks go to the volunteer committee, who spent months organizing logistics, sponsorships, and registration.\n\nWe hope to build on this success and set an even higher goal ⟦16⟧ next year's event.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "raise",
+                "raised",
+                "has raised",
+                "raising"
+              ],
+              "correct": 1,
+              "explanation": "L'événement (« last Saturday's charity fun run ») est daté avec précision dans le passé, ce qui appelle le prétérit simple pour un bilan factuel achevé : « raised over $15,000 ». « raise » est la base verbale ; « has raised » (present perfect) conviendrait à une action sans date précise, ce qui n'est pas le cas ici (« last Saturday ») ; « raising » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "vocab",
+              "options": [
+                "widely",
+                "wide",
+                "widen",
+                "width"
+              ],
+              "correct": 0,
+              "explanation": "Avant un participe passé comme « attended », on attend un adverbe : « the most widely attended » (le plus largement fréquenté). « wide » est un adjectif ; « widen » est un verbe ; « width » est un nom — aucun ne peut modifier un participe passé à cette position."
+            },
+            {
+              "num": 15,
+              "type": "insertion",
+              "options": [
+                "This result reflects the generosity and enthusiasm of our entire workforce.",
+                "The hospital plans to open a new pediatric wing next spring.",
+                "Next year's event will be held at a different location.",
+                "The company will match employee donations up to $500 each."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit conclure le bilan chiffré qui précède avant que le texte ne remercie spécifiquement le comité de bénévoles. Seule l'option sur la générosité de l'ensemble du personnel crée cette transition logique. Les autres options introduisent des informations nouvelles sans lien direct avec cette phrase précise."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "for",
+                "of",
+                "at",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« set a goal for next year's event » signifie « fixer un objectif pour l'événement de l'année prochaine ». « of », « at » et « with » ne sont pas les prépositions attendues après « goal » dans ce sens de finalité future."
+            }
+          ]
+        }
+      ]
+    },
+    "6": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: Ms. Alvarez · From: Recruitment Team · Subject: Interview Invitation",
+          "text": "Dear Ms. Alvarez,\n\nThank you for applying for the position of Marketing Coordinator. After reviewing your application, we ⟦1⟧ pleased to invite you for an interview.\n\nThe interview is ⟦2⟧ for Tuesday, March 4th, at 10:00 a.m. at our head office. Please plan to arrive fifteen minutes early to complete a short registration process.\n\n⟦3⟧\n\nThe interview will last approximately 45 minutes and will include questions from two members of the marketing team.\n\nPlease confirm your attendance by replying to this email ⟦4⟧ Friday.\n\nBest regards,\nRecruitment Team",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "are",
+                "is",
+                "were",
+                "was"
+              ],
+              "correct": 0,
+              "explanation": "Le sujet « we » (nous) est pluriel, donc l'auxiliaire « be » au présent doit être « are » : « we are pleased to invite you ». « is » convient à un sujet singulier ; « were » et « was » situeraient l'action dans le passé, ce qui ne correspond pas à une invitation formulée au moment présent de l'écriture."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "schedule",
+                "scheduled",
+                "scheduling",
+                "schedules"
+              ],
+              "correct": 1,
+              "explanation": "Après « is », on attend un participe passé pour former le passif : « is scheduled for » (est prévu pour). « schedule » est la base verbale ; « scheduling » est une forme en -ing incompatible ; « schedules » est conjugué au présent, impossible après « is »."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Please bring a valid photo ID and two printed copies of your résumé.",
+                "The company offers a competitive benefits package to all employees.",
+                "Our head office recently relocated to a larger building downtown.",
+                "The marketing team organized a successful campaign last quarter."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser ce que la candidate doit apporter à l'entretien, dans la continuité directe de la phrase précédente sur l'arrivée anticipée. Seule l'option sur la pièce d'identité et le CV répond à cette logique pratique. Les autres options n'ont pas de lien direct avec la préparation de l'entretien."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "by",
+                "until",
+                "since",
+                "during"
+              ],
+              "correct": 0,
+              "explanation": "« confirm by Friday » signifie « confirmer au plus tard vendredi », soit une date limite. « until » indiquerait une action continue jusqu'à cette date, ce qui ne convient pas à une confirmation ponctuelle ; « since » indiquerait une origine passée ; « during » s'utilise avec une période, non une date limite."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Human Resources · Subject: Overtime Approval Policy",
+          "text": "Please be reminded that all overtime hours ⟦5⟧ be approved in advance by a direct supervisor before they are worked.\n\nEmployees who work overtime without ⟦6⟧ approval may not be compensated for those hours, in accordance with company policy.\n\n⟦7⟧\n\nRequests for overtime should be submitted through the online timesheet system at least 24 hours before the additional hours are needed.\n\nWe appreciate your cooperation in following this policy ⟦8⟧ ensure fair and accurate compensation for all staff.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "must",
+                "might",
+                "could",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« may not be compensated ») indique une obligation stricte assortie d'une conséquence en cas de non-respect. « must » exprime cette obligation. « might », « could » et « would » expriment la possibilité ou l'hypothèse, ce qui ne convient pas à une règle impérative."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "prior",
+                "priority",
+                "prioritize",
+                "prioritized"
+              ],
+              "correct": 0,
+              "explanation": "« prior approval » est une expression figée signifiant « autorisation préalable », où « prior » fonctionne comme adjectif devant le nom « approval ». « priority » est un nom, « prioritize » un verbe, « prioritized » un participe passé — aucun ne convient à cette position devant « approval »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "This policy ensures that overtime costs remain within the department's budget.",
+                "The company will introduce a new payroll system next year.",
+                "Employees are encouraged to take regular breaks throughout the day.",
+                "The HR department will move to the fourth floor next month."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit justifier la règle énoncée juste avant sur l'approbation préalable des heures supplémentaires. Seule l'option sur la maîtrise des coûts budgétaires apporte cette justification logique. Les autres options n'ont pas de lien avec la politique des heures supplémentaires."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "to",
+                "for",
+                "of",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« follow this policy to ensure » utilise « to » suivi de la base verbale pour exprimer un but (afin de garantir). « for », « of » et « with » ne s'utilisent pas devant un verbe de cette manière pour exprimer une finalité."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Water Supply Interruption",
+          "text": "NOTICE: TEMPORARY WATER SUPPLY INTERRUPTION\n\nDue to essential repairs on the main water line, water supply to the building will be ⟦9⟧ interrupted from 9:00 a.m. to 1:00 p.m. this Friday.\n\nRestroom facilities on all floors will be affected, and employees are asked to plan ⟦10⟧ during this period.\n\n⟦11⟧\n\nBottled water will be made available in the break room for anyone who needs it.\n\nWe apologize for the inconvenience and thank you ⟦12⟧ your understanding while these necessary repairs are completed.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "grammar",
+              "options": [
+                "temporary",
+                "temporarily",
+                "temporariness",
+                "temporize"
+              ],
+              "correct": 1,
+              "explanation": "Avant un participe passé comme « interrupted », on attend un adverbe : « will be temporarily interrupted » (sera temporairement interrompue). « temporary » est un adjectif ; « temporariness » est un nom rare ; « temporize » est un verbe — aucun ne peut modifier un participe passé à cette position."
+            },
+            {
+              "num": 10,
+              "type": "vocab",
+              "options": [
+                "accordingly",
+                "according",
+                "accord",
+                "accordance"
+              ],
+              "correct": 0,
+              "explanation": "« plan accordingly » est une expression figée signifiant « s'organiser en conséquence ». « according » s'utilise avec « to » dans une structure différente (according to) ; « accord » et « accordance » sont des noms qui ne peuvent pas fonctionner comme adverbe après « plan »."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "The cafeteria's kitchen will remain closed during this period as well.",
+                "New water fountains will be installed on the ground floor next year.",
+                "The maintenance team will be recognized for their work at the next meeting.",
+                "Employees can request a parking pass through the online portal."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une conséquence supplémentaire directement liée à la coupure d'eau, avant que le texte ne propose une solution (eau en bouteille). Seule l'option sur la fermeture de la cuisine de la cafétéria s'inscrit dans cette logique. Les autres options n'ont pas de lien avec la coupure d'eau."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "for",
+                "of",
+                "to",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« thank someone for something » est la structure fixe pour remercier quelqu'un pour une action ou une qualité. « of », « to » et « with » ne s'utilisent pas dans cette collocation après « thank »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Company Merger Announcement",
+          "text": "COMPANY NEWSLETTER — MERGER ANNOUNCEMENT\n\nWe are pleased to announce that our company ⟦13⟧ finalized a merger agreement with Hartwell Logistics, effective the start of next quarter.\n\nThis partnership is expected to strengthen our position in the regional market and create new opportunities for employees across both organizations.\n\n⟦14⟧\n\nA joint town hall meeting will be held next week to answer questions and outline the transition timeline in detail.\n\nWe understand that mergers can bring uncertainty, and leadership is ⟦15⟧ to keeping employees informed throughout the process.\n\nWe look forward to a smooth transition and to building a stronger company together ⟦16⟧ our new partners.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "finalize",
+                "finalized",
+                "has finalized",
+                "finalizing"
+              ],
+              "correct": 2,
+              "explanation": "L'annonce porte sur un accord dont les effets sont immédiatement pertinents (« effective the start of next quarter »), ce qui appelle le present perfect : « has finalized ». « finalize » est la base verbale ; « finalized » (simple past) situerait l'action uniquement dans le passé sans lien explicite avec le présent ; « finalizing » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "insertion",
+              "options": [
+                "Employees will receive a detailed FAQ document by the end of this week.",
+                "Hartwell Logistics was founded over twenty years ago.",
+                "The regional market has grown steadily over the past decade.",
+                "Our company's headquarters will not change as a result of this merger."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit annoncer une ressource concrète mise à disposition des employés, en cohérence avec la phrase suivante qui mentionne une réunion pour répondre aux questions. Seule l'option sur le document FAQ crée cette continuité logique. Les autres options apportent des informations générales sans lien direct avec cette transition."
+            },
+            {
+              "num": 15,
+              "type": "vocab",
+              "options": [
+                "committed",
+                "commit",
+                "commitment",
+                "committing"
+              ],
+              "correct": 0,
+              "explanation": "Après « is », on attend un adjectif ou un participe passé pour former l'expression figée « be committed to » (être engagé à). « commit » est la base verbale ; « commitment » est un nom ; « committing » est une forme en -ing — aucun ne convient directement après « is » dans cette expression."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "with",
+                "by",
+                "from",
+                "to"
+              ],
+              "correct": 0,
+              "explanation": "« building a stronger company together with our new partners » signifie « construire ensemble avec nos nouveaux partenaires ». « by » indiquerait un agent ou un moyen, « from » une origine, « to » une destination — aucun ne correspond au sens de collaboration recherché ici."
+            }
+          ]
+        }
+      ]
+    },
+    "7": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "Letter · From: Purchasing Department · Subject: Supplier Price Negotiation",
+          "text": "Dear Mr. Bennett,\n\nThank you for your continued partnership over the past three years. We are writing to discuss the pricing terms in our current supply agreement, which ⟦1⟧ due for renewal next month.\n\nGiven the volume of orders we have placed this year, we would like to ⟦2⟧ whether a reduced rate could be applied to future purchases.\n\n⟦3⟧\n\nWe believe that a revised agreement would benefit both parties and strengthen our long-term working relationship.\n\nWe would welcome the opportunity to discuss this further ⟦4⟧ a phone call at your earliest convenience.\n\nSincerely,\nPurchasing Department",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "is",
+                "are",
+                "was",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "Le sujet « our current supply agreement » est singulier, donc le verbe « be » au présent doit être « is » : « which is due for renewal ». « are » convient à un sujet pluriel ; « was » et « were » situeraient l'action dans le passé, ce qui ne correspond pas à un renouvellement à venir le mois prochain."
+            },
+            {
+              "num": 2,
+              "type": "vocab",
+              "options": [
+                "inquire",
+                "inquiry",
+                "inquiring",
+                "inquired"
+              ],
+              "correct": 0,
+              "explanation": "Après « would like to », on attend la base verbale : « would like to inquire whether » (souhaiterions nous renseigner pour savoir si). « inquiry » est un nom ; « inquiring » est une forme en -ing ; « inquired » est un participe passé ou un passé simple — aucun ne convient après « to » dans cette structure infinitive."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Our order volume has increased by nearly 25 percent since last year.",
+                "Your company was established over fifty years ago.",
+                "We recently opened a new distribution center in the region.",
+                "The current agreement includes a clause on delivery times."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter un argument chiffré à l'appui de la demande de tarif réduit formulée juste avant. Seule l'option sur l'augmentation du volume de commandes soutient directement cette demande. Les autres options n'apportent pas d'argument pertinent à la négociation tarifaire."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "via",
+                "by",
+                "through",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« discuss this further via a phone call » signifie « discuter de cela plus en détail par le biais d'un appel téléphonique ». « by » serait également plausible en usage courant, mais « via » est ici l'option la plus précise et idiomatique pour indiquer le moyen de communication ; « through » suggérerait un processus plus long, et « with » ne s'utilise pas dans cette collocation pour indiquer un moyen de communication."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Health and Safety Officer · Subject: Mandatory Training Reminder",
+          "text": "This is a reminder that all warehouse staff ⟦5⟧ complete the annual health and safety training before the end of this month.\n\nEmployees who have not yet registered for a session are ⟦6⟧ to do so through the training portal as soon as possible.\n\n⟦7⟧\n\nSessions are available on Tuesday and Thursday mornings and take approximately two hours to complete.\n\nFailure to complete this training by the deadline may result in restricted access to certain areas of the warehouse ⟦8⟧ safety compliance is confirmed.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "must",
+                "might",
+                "could",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« Failure to complete this training by the deadline may result in restricted access ») indique une obligation stricte assortie d'une conséquence. « must » exprime cette obligation. « might », « could » et « would » expriment la possibilité ou l'hypothèse, ce qui ne convient pas à une exigence de conformité."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "ask",
+                "asked",
+                "asking",
+                "asks"
+              ],
+              "correct": 1,
+              "explanation": "Après « are », on attend un participe passé pour former le passif : « are asked to do so » (sont priés de le faire). « ask » est la base verbale ; « asking » est une forme en -ing incompatible ; « asks » est conjugué au présent, impossible après « are »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "Please note that this training is mandatory for all warehouse personnel, without exception.",
+                "The warehouse recently upgraded its inventory management software.",
+                "New safety equipment will be distributed to staff next month.",
+                "The training portal will undergo maintenance this weekend."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit insister sur le caractère obligatoire de la formation, en cohérence avec le ton du mémo et la conséquence mentionnée en cas de non-respect. Seule l'option rappelant le caractère obligatoire sans exception s'inscrit dans cette logique. Les autres options n'ont pas de lien direct avec l'obligation de formation."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "until",
+                "by",
+                "since",
+                "during"
+              ],
+              "correct": 0,
+              "explanation": "« restricted access ... until safety compliance is confirmed » signifie que la restriction s'applique jusqu'à ce qu'une condition soit remplie. « by » indiquerait une date limite précise plutôt qu'une condition ; « since » indiquerait une origine passée ; « during » s'utilise avec une période, non une condition suspensive."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Wireless Network Maintenance",
+          "text": "NOTICE: SCHEDULED WI-FI MAINTENANCE\n\nThe company's wireless network will be ⟦9⟧ for scheduled maintenance this Saturday from 8:00 a.m. to 12:00 p.m.\n\nDuring this window, employees working remotely may experience ⟦10⟧ connectivity or intermittent access to shared drives and internal systems.\n\n⟦11⟧\n\nThe IT department recommends saving all work locally before the maintenance window begins, as a precaution.\n\nWe apologize for any disruption this may cause and appreciate your patience ⟦12⟧ this important upgrade is completed.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "vocab",
+              "options": [
+                "unavailable",
+                "available",
+                "unavailability",
+                "avail"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« scheduled maintenance ») indique que le réseau ne pourra pas être utilisé pendant cette période : « unavailable » (indisponible) est donc attendu. « available » est le contraire du sens recherché ; « unavailability » est un nom, impossible après « be » sans article ; « avail » est un mot rare, inadapté ici."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "reduce",
+                "reduced",
+                "reducing",
+                "reduction"
+              ],
+              "correct": 1,
+              "explanation": "Avant le nom « connectivity », on attend un adjectif ou un participe passé jouant ce rôle : « reduced connectivity » (connectivité réduite). « reduce » est la base verbale ; « reducing » est une forme en -ing qui suggérerait une action continue plutôt qu'un état ; « reduction » est un nom, ce qui créerait deux noms accolés sans lien grammatical correct."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Critical business systems will not be affected during this maintenance window.",
+                "The IT department recently hired two new technicians.",
+                "Employees can request new laptops through the online portal.",
+                "The company plans to upgrade all office computers next year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une précision rassurante sur l'étendue limitée de la perturbation, avant que le texte ne recommande une précaution (sauvegarder le travail localement). Seule l'option sur le maintien des systèmes critiques répond à cette logique. Les autres options n'ont pas de lien direct avec la maintenance du réseau."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "until",
+                "by",
+                "for",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "« appreciate your patience until this important upgrade is completed » signifie que la patience est sollicitée jusqu'à l'achèvement de la mise à niveau. « by » indiquerait une date limite précise, « for » une durée chiffrée, « since » une origine passée — aucun ne convient à cette condition suspensive."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Annual Company Picnic Recap",
+          "text": "COMPANY NEWSLETTER — ANNUAL PICNIC RECAP\n\nThis year's company picnic ⟦13⟧ place last Saturday at Lakeside Park, drawing a record turnout of more than 300 employees and family members.\n\nThe day featured games, live music, and a barbecue lunch prepared by volunteers from the events committee.\n\n⟦14⟧\n\nFeedback from attendees has been overwhelmingly positive, with many praising the relaxed atmosphere and variety of activities for children.\n\nSpecial thanks go to everyone who helped organize the event, ⟦15⟧ contributed to making it such a memorable day.\n\nPlanning for next year's picnic will begin ⟦16⟧ the coming months, and suggestions from staff are always welcome.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "take",
+                "took",
+                "has taken",
+                "taking"
+              ],
+              "correct": 1,
+              "explanation": "L'événement est daté avec précision dans le passé (« last Saturday »), ce qui appelle le prétérit simple : « took place ». « take » est la base verbale ; « has taken » (present perfect) conviendrait à une action sans date précise, ce qui n'est pas le cas ici ; « taking » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "insertion",
+              "options": [
+                "A dedicated area with inflatable games kept younger children entertained throughout the afternoon.",
+                "The park is located about twenty minutes from the office.",
+                "Next year's budget for company events has not yet been finalized.",
+                "The events committee meets once a month to plan activities."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit prolonger la description des activités proposées lors du pique-nique, en cohérence avec la phrase suivante qui mentionne la variété d'activités pour les enfants. Seule l'option sur l'espace de jeux gonflables s'inscrit dans cette continuité descriptive. Les autres options n'ont pas de lien direct avec le déroulement de l'événement."
+            },
+            {
+              "num": 15,
+              "type": "vocab",
+              "options": [
+                "who",
+                "which",
+                "whose",
+                "whom"
+              ],
+              "correct": 0,
+              "explanation": "Le pronom relatif doit reprendre « everyone » (une personne), sujet du verbe « contributed » : « everyone who ... contributed ». « which » s'utilise pour des choses, non des personnes ; « whose » indiquerait une possession ; « whom » serait un complément d'objet, non un sujet."
+            },
+            {
+              "num": 16,
+              "type": "grammar",
+              "options": [
+                "in",
+                "at",
+                "on",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "« begin in the coming months » exprime le début d'une action dans une période future relativement large. « at » s'utiliserait avec un moment précis, « on » avec un jour précis, « by » indiquerait une date limite — aucun ne convient pour une période étendue comme « the coming months »."
+            }
+          ]
+        }
+      ]
+    },
+    "8": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: Mr. Okafor · From: Sales Department · Subject: Order Confirmation",
+          "text": "Dear Mr. Okafor,\n\nThank you for your recent order. This email confirms that your order ⟦1⟧ number 48213 has been received and is currently being processed.\n\nBased on current stock levels, your items are expected to ⟦2⟧ within five to seven business days from the date of this confirmation.\n\n⟦3⟧\n\nYou will receive a separate email with tracking information once your order has been dispatched from our warehouse.\n\nIf you need to make any changes to your order, please contact our customer service team ⟦4⟧ 48 hours of placing it.\n\nBest regards,\nSales Department",
+          "questions": [
+            {
+              "num": 1,
+              "type": "vocab",
+              "options": [
+                "reference",
+                "referral",
+                "referring",
+                "refer"
+              ],
+              "correct": 0,
+              "explanation": "« order reference number » est l'expression standard désignant le numéro qui identifie une commande. « referral » signifie « recommandation », « referring » et « refer » sont des formes verbales incompatibles devant « number »."
+            },
+            {
+              "num": 2,
+              "type": "grammar",
+              "options": [
+                "ship",
+                "shipped",
+                "shipping",
+                "ships"
+              ],
+              "correct": 0,
+              "explanation": "Après « are expected to », on attend la base verbale : « are expected to ship » (devraient être expédiés). « shipped » est un participe passé, « shipping » une forme en -ing, « ships » un présent conjugué — aucun ne convient après « to » dans cette structure infinitive."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Delivery times may vary slightly depending on your location.",
+                "Our company was founded more than thirty years ago.",
+                "We recently expanded our product catalog to include new items.",
+                "Customer satisfaction remains our top priority every year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit nuancer le délai annoncé juste avant (« five to seven business days »), en précisant qu'il peut varier. Seule l'option sur les délais de livraison variables selon la localisation prolonge logiquement cette idée. Les autres options n'ont pas de lien direct avec le délai de livraison."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "within",
+                "during",
+                "until",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "« contact us within 48 hours of placing it » signifie « nous contacter dans un délai de 48 heures ». « during » s'utilise avec une période nommée, non une durée chiffrée à partir d'un événement ; « until » indiquerait une échéance continue ; « since » indiquerait une origine passée."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Senior Management · Subject: Remote Work Policy Update",
+          "text": "Following a successful trial period, the company ⟦5⟧ a permanent remote work policy, effective the first of next month.\n\nEmployees whose roles are ⟦6⟧ with remote work will be able to work from home up to three days per week, subject to manager approval.\n\n⟦7⟧\n\nEmployees are still expected to attend all scheduled in-person meetings and maintain regular availability during core business hours.\n\nFurther details, including eligibility criteria, will be shared ⟦8⟧ the employee handbook next week.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will introduce",
+                "is introducing",
+                "has introduced",
+                "introduced"
+              ],
+              "correct": 0,
+              "explanation": "« effective the first of next month » indique une date future précise pour une décision déjà prise mais pas encore mise en œuvre : le futur simple « will introduce » convient. « is introducing » suggérerait une action déjà en cours ; « has introduced » impliquerait que la politique est déjà en place ; « introduced » situerait l'action dans le passé."
+            },
+            {
+              "num": 6,
+              "type": "vocab",
+              "options": [
+                "compatible",
+                "compatibility",
+                "compatibly",
+                "compatibilities"
+              ],
+              "correct": 0,
+              "explanation": "« roles ... compatible with remote work » signifie « postes compatibles avec le télétravail », où « compatible » fonctionne comme adjectif après « are ». « compatibility » est un nom, « compatibly » un adverbe, « compatibilities » un nom pluriel — aucun ne convient à cette position après « are »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "Managers will work with each employee to determine an appropriate remote work schedule.",
+                "The company's revenue grew significantly over the past year.",
+                "A new office building will open in the downtown area next year.",
+                "Employee satisfaction surveys are conducted twice a year."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser comment l'organisation pratique du télétravail sera déterminée, dans la continuité de la phrase précédente sur l'approbation du manager. Seule l'option sur la collaboration entre managers et employés répond à cette logique. Les autres options n'ont pas de lien direct avec la politique de télétravail."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "« shared in the employee handbook » signifie « communiquées dans le manuel de l'employé ». « on » s'utiliserait pour une plateforme ou un support différent, « at » et « by » ne sont pas les prépositions attendues avec « handbook » dans ce sens."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Air Conditioning Repair Schedule",
+          "text": "NOTICE: AIR CONDITIONING REPAIRS\n\nThe air conditioning system on the third and fourth floors will be ⟦9⟧ repair work between Monday and Wednesday of next week.\n\nTemperatures in these areas may be noticeably ⟦10⟧ than usual during this period, particularly in the afternoon.\n\n⟦11⟧\n\nEmployees who are especially sensitive to heat are welcome to relocate temporarily to available desks on the second floor.\n\nWe apologize for the inconvenience and thank you for your patience ⟦12⟧ these repairs are completed.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "vocab",
+              "options": [
+                "undergoing",
+                "undergo",
+                "undergone",
+                "undergoes"
+              ],
+              "correct": 0,
+              "explanation": "Après « will be », on attend un participe présent pour former une structure passive progressive de sens actif : « will be undergoing repair work » (subira des travaux de réparation). « undergo » est la base verbale, « undergone » un participe passé qui donnerait un sens différent après « be » sans auxiliaire supplémentaire, « undergoes » un présent conjugué — aucun des deux derniers ne convient après « will be »."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "high",
+                "higher",
+                "highest",
+                "highly"
+              ],
+              "correct": 1,
+              "explanation": "« noticeably higher than usual » exprime une comparaison introduite par « than », ce qui appelle le comparatif « higher ». « high » est la forme de base ; « highest » est un superlatif, incompatible avec « than » ; « highly » est un adverbe qui ne peut pas être suivi de « than » dans ce sens comparatif."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Portable fans will be made available on request during this time.",
+                "The building's elevators were recently inspected and certified.",
+                "New office furniture will be delivered to the fourth floor next month.",
+                "The maintenance team will host a training session next week."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une solution pratique face à la hausse de température annoncée, en cohérence avec la phrase suivante qui propose une relocalisation temporaire. Seule l'option sur les ventilateurs portables s'inscrit dans cette logique. Les autres options n'ont pas de lien direct avec la gestion de la chaleur."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "until",
+                "by",
+                "for",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "« thank you for your patience until these repairs are completed » signifie que la patience est sollicitée jusqu'à l'achèvement des réparations. « by » indiquerait une date limite précise, « for » une durée chiffrée, « since » une origine passée — aucun ne convient à cette condition suspensive."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Quarterly Financial Results",
+          "text": "COMPANY NEWSLETTER — QUARTERLY FINANCIAL RESULTS\n\nWe are pleased to report that overall revenue for the third quarter ⟦13⟧ by 12 percent compared to the same period last year, driven primarily by strong performance in our international markets.\n\nOperating costs remained largely stable, which allowed for a healthy improvement in overall profit margins.\n\n⟦14⟧\n\nThe finance team attributes this growth to disciplined cost management and continued investment in high-performing product lines.\n\nLooking ahead, management remains ⟦15⟧ that this positive trend will continue into the fourth quarter, supported by a strong order pipeline ⟦16⟧ several key regions.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "grow",
+                "grew",
+                "has grown",
+                "growing"
+              ],
+              "correct": 1,
+              "explanation": "Il s'agit d'un fait chiffré et achevé, comparé à une période précise du passé (« compared to the same period last year ») : le prétérit « grew » convient pour ce type de bilan factuel. « grow » est la base verbale sans marque de temps ; « has grown » insisterait sur une évolution continue plutôt qu'un résultat chiffré ponctuel lié à une comparaison datée ; « growing » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "insertion",
+              "options": [
+                "This marks the strongest quarterly performance in nearly three years.",
+                "The finance department recently hired two new analysts.",
+                "Next year's budget planning will begin in October.",
+                "The company's stock price fluctuated throughout the quarter."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit conclure le bilan chiffré positif présenté dans les phrases précédentes, avant que le texte n'explique les raisons de cette croissance. Seule l'option soulignant qu'il s'agit de la meilleure performance depuis presque trois ans crée cette transition logique. Les autres options n'ont pas de lien direct avec ce bilan précis."
+            },
+            {
+              "num": 15,
+              "type": "vocab",
+              "options": [
+                "confident",
+                "confidence",
+                "confidently",
+                "confide"
+              ],
+              "correct": 0,
+              "explanation": "Après « remains », on attend un adjectif : « remains confident that » (reste confiante que). « confidence » est un nom, « confidently » un adverbe, « confide » un verbe — aucun ne convient directement après « remains » dans cette structure."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "across",
+                "along",
+                "among",
+                "between"
+              ],
+              "correct": 0,
+              "explanation": "« a strong order pipeline across several key regions » signifie « réparti dans plusieurs régions clés ». « along » s'utiliserait pour une trajectoire linéaire, « among » et « between » impliqueraient une répartition entre des éléments dénombrés individuellement plutôt qu'une présence généralisée sur plusieurs zones."
+            }
+          ]
+        }
+      ]
+    },
+    "9": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: Mr. Delacroix · From: Grandview Hotel Reservations · Subject: Reservation Confirmation",
+          "text": "Dear Mr. Delacroix,\n\nThank you for choosing the Grandview Hotel for your upcoming business trip. Your reservation ⟦1⟧ confirmed for the nights of April 3rd to April 6th.\n\nYour room includes complimentary breakfast and access to the business center, which is ⟦2⟧ open around the clock for guests who need to work outside regular hours.\n\n⟦3⟧\n\nCheck-in begins at 3:00 p.m., though early check-in may be available upon request, subject to room availability.\n\nShould your travel plans change, please notify us ⟦4⟧ 48 hours before your arrival date to avoid a cancellation fee.\n\nWe look forward to welcoming you.\n\nGrandview Hotel Reservations",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "has been",
+                "have been",
+                "was",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "Le sujet « Your reservation » est singulier, et l'action a une conséquence pertinente au moment présent (la confirmation reçue) : le present perfect passif « has been confirmed » convient. « have been » conviendrait à un sujet pluriel ; « was » et « were » situeraient l'action uniquement dans le passé, sans le lien avec le présent qu'apporte le present perfect."
+            },
+            {
+              "num": 2,
+              "type": "vocab",
+              "options": [
+                "kept",
+                "kept open",
+                "open",
+                "opened"
+              ],
+              "correct": 2,
+              "explanation": "Après « is », on attend un adjectif pour décrire un état : « is open around the clock » (est ouvert en permanence). « kept » et « kept open » sont des constructions redondantes et grammaticalement maladroites ici ; « opened » est un participe passé qui, seul après « is », suggérerait une action ponctuelle plutôt qu'un état permanent."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "A fitness center and outdoor pool are also available to all guests.",
+                "The hotel was renovated three years ago.",
+                "Grandview Hotel has locations in several major cities.",
+                "Room rates vary depending on the season."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit poursuivre la présentation des équipements inclus dans la réservation, dans la continuité directe de la phrase précédente sur le petit-déjeuner et le centre d'affaires. Seule l'option sur la salle de sport et la piscine prolonge cette liste d'équipements. Les autres options n'ont pas de lien direct avec cette phrase précise."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "at least",
+                "at most",
+                "no later",
+                "no sooner"
+              ],
+              "correct": 0,
+              "explanation": "« notify us at least 48 hours before your arrival » signifie qu'un préavis minimum de 48 heures est requis. « at most » inverserait le sens en fixant un maximum plutôt qu'un minimum ; « no later » et « no sooner » ne s'associent pas naturellement à une durée de cette manière dans cette structure."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Human Resources · Subject: Annual Performance Review Schedule",
+          "text": "This is to inform all staff that annual performance reviews ⟦5⟧ take place between May 15th and June 15th this year.\n\nEmployees will be ⟦6⟧ by their direct supervisor to schedule a one-on-one meeting during this window.\n\n⟦7⟧\n\nPlease come prepared to discuss your accomplishments over the past year, as well as any goals you would like to set for the upcoming period.\n\nSelf-assessment forms should be completed and submitted ⟦8⟧ your scheduled review date.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will",
+                "is",
+                "does",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "Le mémo annonce un événement futur planifié et certain (« between May 15th and June 15th ») : le modal « will » convient. « is » exigerait « is taking place » ; « does » ne se combine pas ainsi avec ce sujet pluriel ; « would » suggérerait une hypothèse plutôt qu'un fait annoncé."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "contact",
+                "contacted",
+                "contacting",
+                "contacts"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé pour former le futur passif : « will be contacted by » (seront contactés par). « contact » est la base verbale ; « contacting » est une forme en -ing incompatible ; « contacts » est conjugué au présent, impossible après « be »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "Reviews will be conducted in person or via video call, depending on location.",
+                "The company's headquarters recently underwent renovations.",
+                "New performance management software will be introduced next year.",
+                "Employees can request feedback from colleagues at any time."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser les modalités pratiques de la réunion individuelle mentionnée juste avant. Seule l'option sur le format des entretiens (en personne ou par visioconférence) répond à cette logique. Les autres options n'ont pas de lien direct avec l'organisation des entretiens annuels."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "prior to",
+                "following",
+                "during",
+                "throughout"
+              ],
+              "correct": 0,
+              "explanation": "« submitted prior to your scheduled review date » signifie « soumis avant votre date d'entretien prévue ». « following » inverserait l'ordre logique (après plutôt qu'avant) ; « during » et « throughout » s'utiliseraient avec une période plutôt qu'une date ponctuelle limite."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Temporary Loading Dock Closure",
+          "text": "NOTICE: LOADING DOCK TEMPORARILY CLOSED\n\nThe rear loading dock will be ⟦9⟧ to all deliveries from Monday to Thursday next week while structural repairs are carried out.\n\nDuring this period, all deliveries should be ⟦10⟧ to the side entrance on Elm Street instead.\n\n⟦11⟧\n\nSuppliers have already been notified of this temporary change and should adjust their delivery routes accordingly.\n\nWe appreciate your cooperation and apologize for any inconvenience ⟦12⟧ these necessary repairs.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "vocab",
+              "options": [
+                "closed",
+                "open",
+                "closing",
+                "closure"
+              ],
+              "correct": 0,
+              "explanation": "Le contexte (« while structural repairs are carried out ») indique que le quai ne pourra pas être utilisé : « closed » (fermé) est donc attendu. « open » est le contraire du sens recherché ; « closing » suggérerait une action en cours plutôt qu'un état ; « closure » est un nom, impossible après « be » sans article."
+            },
+            {
+              "num": 10,
+              "type": "grammar",
+              "options": [
+                "direct",
+                "directed",
+                "directing",
+                "direction"
+              ],
+              "correct": 1,
+              "explanation": "Après « should be », on attend un participe passé pour former le passif : « should be directed to » (devraient être dirigées vers). « direct » est la base verbale ; « directing » est une forme en -ing incompatible ; « direction » est un nom, impossible après « be »."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Please allow extra time for deliveries during this temporary arrangement.",
+                "The loading dock was originally built over twenty years ago.",
+                "New security cameras will be installed near the main entrance.",
+                "The company recently signed a contract with a new supplier."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit apporter une conséquence pratique liée au changement temporaire d'itinéraire de livraison décrit juste avant. Seule l'option sur le temps supplémentaire à prévoir est cohérente avec ce contexte. Les autres options n'ont pas de lien direct avec la fermeture temporaire du quai."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "caused by",
+                "caused for",
+                "causing to",
+                "cause of"
+              ],
+              "correct": 0,
+              "explanation": "« inconvenience caused by these necessary repairs » signifie « désagrément causé par ces réparations nécessaires », où « caused by » introduit la cause à l'aide du participe passé suivi de « by ». « caused for », « causing to » et « cause of » ne sont pas des structures grammaticalement correctes dans ce contexte."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Company Anniversary Celebration",
+          "text": "COMPANY NEWSLETTER — 25TH ANNIVERSARY CELEBRATION\n\nThis year marks our company's 25th anniversary, and we ⟦13⟧ this milestone with a special celebration for all employees next month.\n\nThe event will include a formal dinner, a retrospective presentation on the company's history, and recognition awards for long-serving staff members.\n\n⟦14⟧\n\nEmployees who have been with the company for ten years or more will receive a special commemorative gift.\n\nWe are grateful to everyone who has contributed ⟦15⟧ our success over the past 25 years and look forward to celebrating together ⟦16⟧ this important occasion.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "will mark",
+                "are marking",
+                "have marked",
+                "marked"
+              ],
+              "correct": 1,
+              "explanation": "L'action de célébrer est présentée comme un plan déjà décidé et en préparation active, avec un événement précis à venir le mois prochain : le présent progressif à valeur de futur proche « are marking » convient pour une décision confirmée dont les préparatifs sont en cours. « will mark » resterait possible mais moins naturel ici étant donné le ton d'annonce déjà engagée ; « have marked » impliquerait une action achevée ; « marked » situerait l'action dans le passé."
+            },
+            {
+              "num": 14,
+              "type": "insertion",
+              "options": [
+                "Invitations with further details will be sent to all staff next week.",
+                "The company was founded by two former engineers.",
+                "Long-serving employees often mentor newer team members.",
+                "The dinner venue has not yet been finalized."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit annoncer une prochaine étape concrète liée à l'organisation de l'événement décrit, avant que le texte ne détaille un avantage spécifique (le cadeau commémoratif). Seule l'option sur l'envoi des invitations crée cette transition logique. Les autres options n'ont pas de lien direct avec cette phrase précise."
+            },
+            {
+              "num": 15,
+              "type": "vocab",
+              "options": [
+                "to",
+                "for",
+                "toward",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« contributed to our success » est la collocation standard signifiant « a contribué à notre succès ». « for », « toward » et « with » ne sont pas les prépositions attendues après « contribute » dans ce sens."
+            },
+            {
+              "num": 16,
+              "type": "vocab",
+              "options": [
+                "on",
+                "at",
+                "in",
+                "for"
+              ],
+              "correct": 0,
+              "explanation": "« celebrating together on this important occasion » utilise « on » devant une occasion précise, tout comme on dirait « on this special day ». « at » s'utiliserait plutôt avec un lieu ou un moment ponctuel précis, « in » et « for » ne sont pas les prépositions attendues avec « occasion » dans ce sens."
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "passages": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 1–4",
+          "meta": "To: All Customers · From: Product Safety Team · Subject: Voluntary Product Recall",
+          "text": "Dear Valued Customer,\n\nWe are writing to inform you that we ⟦1⟧ a voluntary recall of our Model X200 electric kettle due to a potential wiring defect identified during routine quality testing.\n\nIf you own one of the affected units, please stop using it ⟦2⟧ and contact our customer support team to arrange a free replacement or full refund.\n\n⟦3⟧\n\nYou can check whether your unit is affected by entering the serial number, located on the base of the kettle, on our website.\n\nWe sincerely apologize for any inconvenience this may cause and thank you ⟦4⟧ your understanding as we work to resolve this matter promptly.\n\nProduct Safety Team",
+          "questions": [
+            {
+              "num": 1,
+              "type": "grammar",
+              "options": [
+                "initiate",
+                "initiated",
+                "have initiated",
+                "are initiating"
+              ],
+              "correct": 2,
+              "explanation": "L'annonce porte sur une décision dont la pertinence et les conséquences sont immédiates au moment de l'écriture (les instructions qui suivent) : le present perfect « have initiated » convient. « initiate » est la base verbale ; « initiated » (simple past) situerait l'action uniquement dans le passé sans lien explicite avec le présent ; « are initiating » suggérerait une action en cours de démarrage plutôt qu'une décision déjà prise et communiquée."
+            },
+            {
+              "num": 2,
+              "type": "vocab",
+              "options": [
+                "immediately",
+                "immediate",
+                "immediacy",
+                "immediateness"
+              ],
+              "correct": 0,
+              "explanation": "Après le verbe « stop using it », on attend un adverbe pour préciser la manière : « stop using it immediately » (cesser de l'utiliser immédiatement). « immediate » est un adjectif, « immediacy » et « immediateness » sont des noms — aucun ne peut modifier un verbe à cette position."
+            },
+            {
+              "num": 3,
+              "type": "insertion",
+              "options": [
+                "Do not attempt to repair the unit yourself under any circumstances.",
+                "The kettle was originally launched three years ago.",
+                "Our company has sold millions of kitchen appliances worldwide.",
+                "Customer support is available Monday through Friday."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit renforcer la consigne de sécurité donnée juste avant (cesser d'utiliser l'appareil), en avertissant explicitement de ne pas tenter de le réparer soi-même. Seule cette option prolonge directement cette consigne de sécurité. Les autres options n'ont pas de lien direct avec l'instruction de sécurité en cours."
+            },
+            {
+              "num": 4,
+              "type": "vocab",
+              "options": [
+                "for",
+                "of",
+                "to",
+                "with"
+              ],
+              "correct": 0,
+              "explanation": "« thank you for your understanding » est la structure fixe pour remercier quelqu'un de sa compréhension. « of », « to » et « with » ne s'utilisent pas dans cette collocation après « thank »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 5–8",
+          "meta": "Memo · From: Finance Department · Subject: New Expense Reimbursement System",
+          "text": "Starting next month, all expense reimbursements ⟦5⟧ processed through a new online system called ExpenseTrack, replacing the current paper-based process.\n\nEmployees will be ⟦6⟧ to submit digital copies of receipts directly through the platform rather than mailing physical copies to the finance office.\n\n⟦7⟧\n\nA short training video explaining how to use the new system will be sent to all staff next week.\n\nWe expect this change to significantly reduce processing times ⟦8⟧ improve accuracy across all reimbursement requests.",
+          "questions": [
+            {
+              "num": 5,
+              "type": "grammar",
+              "options": [
+                "will be",
+                "are being",
+                "have been",
+                "were"
+              ],
+              "correct": 0,
+              "explanation": "« Starting next month » indique une date future précise pour un changement de processus déjà décidé : le futur passif « will be processed » convient. « are being processed » suggérerait une action déjà en cours ; « have been processed » impliquerait que le changement est déjà effectif ; « were » situerait l'action dans le passé, incompatible avec une date future."
+            },
+            {
+              "num": 6,
+              "type": "grammar",
+              "options": [
+                "require",
+                "required",
+                "requiring",
+                "requirement"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé pour former le passif : « will be required to submit » (seront tenus de soumettre). « require » est la base verbale ; « requiring » est une forme en -ing incompatible ; « requirement » est un nom, impossible après « be »."
+            },
+            {
+              "num": 7,
+              "type": "insertion",
+              "options": [
+                "This change is expected to make the reimbursement process faster and more transparent.",
+                "The finance department recently moved to a new office on the third floor.",
+                "Employees can request an advance on their salary in exceptional circumstances.",
+                "The company's fiscal year begins in January."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit justifier le passage au nouveau système décrit dans les phrases précédentes, avant que le texte n'annonce une vidéo de formation. Seule l'option sur la rapidité et la transparence accrues du processus répond à cette logique. Les autres options n'ont pas de lien direct avec le nouveau système de remboursement."
+            },
+            {
+              "num": 8,
+              "type": "vocab",
+              "options": [
+                "and",
+                "but",
+                "or",
+                "so"
+              ],
+              "correct": 0,
+              "explanation": "« reduce processing times and improve accuracy » relie deux conséquences positives attendues du changement, dans une structure additive. « but » introduirait une opposition, « or » une alternative, « so » une conséquence — aucun ne convient pour relier deux bénéfices complémentaires de cette manière."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 3 — QUESTIONS 9–12",
+          "meta": "Notice · Subject: Updated Security Badge Policy",
+          "text": "NOTICE: SECURITY BADGE POLICY UPDATE\n\nEffective immediately, all employees ⟦9⟧ wear their security badge visibly at all times while inside company premises.\n\nBadges must be displayed above the waist, and employees found without a visible badge may be asked to ⟦10⟧ their identity at the reception desk before proceeding further into the building.\n\n⟦11⟧\n\nLost or damaged badges should be reported to building security as soon as possible so that a replacement can be issued.\n\nThis policy has been introduced ⟦12⟧ response to recent recommendations from our building's security audit.",
+          "questions": [
+            {
+              "num": 9,
+              "type": "grammar",
+              "options": [
+                "must",
+                "might",
+                "could",
+                "would"
+              ],
+              "correct": 0,
+              "explanation": "« Effective immediately » indique une règle contraignante appliquée sans délai : « must » exprime cette obligation stricte. « might », « could » et « would » expriment la possibilité ou l'hypothèse, ce qui ne convient pas à une politique de sécurité impérative."
+            },
+            {
+              "num": 10,
+              "type": "vocab",
+              "options": [
+                "confirm",
+                "confirmation",
+                "confirming",
+                "confirmed"
+              ],
+              "correct": 0,
+              "explanation": "Après « asked to », on attend la base verbale : « asked to confirm their identity » (priés de confirmer leur identité). « confirmation » est un nom, « confirming » une forme en -ing, « confirmed » un participe passé — aucun ne convient après « to » dans cette structure infinitive."
+            },
+            {
+              "num": 11,
+              "type": "insertion",
+              "options": [
+                "Temporary visitor badges remain available at the front desk as usual.",
+                "The building's reception area was recently redecorated.",
+                "Security staff will receive additional training next month.",
+                "The company plans to install new turnstiles at the main entrance."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit préciser un point pratique lié à la politique de badge, avant que le texte n'aborde la question des badges perdus ou endommagés. Seule l'option sur les badges visiteurs temporaires reste cohérente avec le sujet des badges d'accès. Les autres options n'ont pas de lien direct avec cette politique précise."
+            },
+            {
+              "num": 12,
+              "type": "vocab",
+              "options": [
+                "in",
+                "on",
+                "at",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "« introduced in response to » est l'expression figée signifiant « introduite en réponse à ». « on », « at » et « by » ne s'utilisent pas dans cette collocation avec « response »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 4 — QUESTIONS 13–16",
+          "meta": "Newsletter · Subject: Employee Survey Results Summary",
+          "text": "COMPANY NEWSLETTER — EMPLOYEE SURVEY RESULTS\n\nWe would like to thank everyone who ⟦13⟧ part in this year's employee satisfaction survey, which received an outstanding response rate of 87 percent.\n\nOverall satisfaction scores improved across nearly every category, with particularly strong gains in areas related to work-life balance and career development opportunities.\n\n⟦14⟧\n\nHowever, the survey also identified communication between departments as an area that still needs improvement.\n\nManagement is currently ⟦15⟧ an action plan to address this feedback, with more details to be shared ⟦16⟧ the coming weeks.",
+          "questions": [
+            {
+              "num": 13,
+              "type": "grammar",
+              "options": [
+                "take",
+                "took",
+                "has taken",
+                "taking"
+              ],
+              "correct": 1,
+              "explanation": "L'action de participer à l'enquête est achevée et se réfère à un événement passé et daté (« this year's survey »), ce qui appelle le prétérit simple : « took part ». « take » est la base verbale ; « has taken » (present perfect) conviendrait davantage à une action sans référence temporelle précise ; « taking » ne peut pas fonctionner seul comme verbe conjugué."
+            },
+            {
+              "num": 14,
+              "type": "insertion",
+              "options": [
+                "These results reflect the positive impact of initiatives launched earlier this year.",
+                "The survey was conducted using an anonymous online platform.",
+                "Employee surveys are typically conducted once a year.",
+                "The human resources team analyzed the results over several weeks."
+              ],
+              "correct": 0,
+              "explanation": "La phrase doit conclure le bilan positif présenté dans la phrase précédente, avant que le texte ne signale un point à améliorer avec « However ». Seule l'option sur l'impact positif des initiatives récentes crée cette transition logique. Les autres options apportent des informations factuelles sans lien direct avec ce bilan précis."
+            },
+            {
+              "num": 15,
+              "type": "grammar",
+              "options": [
+                "developing",
+                "develop",
+                "developed",
+                "develops"
+              ],
+              "correct": 0,
+              "explanation": "Après « is currently », on attend un participe présent pour former le présent progressif : « is currently developing » (est actuellement en train d'élaborer). « develop » est la base verbale, « developed » un participe passé, « develops » un présent conjugué — aucun ne convient après « is » sans « being » pour exprimer une action en cours."
+            },
+            {
+              "num": 16,
+              "type": "grammar",
+              "options": [
+                "in",
+                "at",
+                "on",
+                "by"
+              ],
+              "correct": 0,
+              "explanation": "« shared in the coming weeks » exprime le partage d'informations dans une période future relativement large. « at » s'utiliserait avec un moment précis, « on » avec un jour précis, « by » indiquerait une date limite — aucun ne convient pour une période étendue comme « the coming weeks »."
+            }
+          ]
+        }
+      ]
     }
   }
 }
