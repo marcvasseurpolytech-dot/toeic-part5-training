@@ -176,6 +176,12 @@ footer strong{color:var(--navy);}
 .p6-correction .good{color:var(--ok);font-weight:600;}
 .p6-correction .explain{margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:.92rem;}
 .p6-allcorrect{text-align:center;color:var(--ok);font-weight:600;padding:18px;}
+.mini-section-title{
+  font-family:'Playfair Display',serif;color:var(--navy);
+  font-size:1.15rem;margin:28px 0 14px;padding-bottom:8px;
+  border-bottom:2px solid var(--gold);
+}
+.mini-section-title:first-child{margin-top:0;}
 </style>
 </head>
 <body>
@@ -204,6 +210,15 @@ let currentTest = null;
 let answers = {};      // { qnum: 'A' }
 let checked = {};      // { qnum: true }
 
+function resetAllTestTimers(){
+  if(p5Interval){ clearInterval(p5Interval); p5Interval = null; }
+  if(p6Interval){ clearInterval(p6Interval); p6Interval = null; }
+  if(miniInterval){ clearInterval(miniInterval); miniInterval = null; }
+  p5Submitted = false; answers = {}; checked = {}; p5TimeLeft = P5_DURATION;
+  p6Submitted = false; p6Answers = {}; p6TimeLeft = P6_DURATION;
+  miniSubmitted = false; miniAnswers = {}; miniTimeLeft = MINI_DURATION;
+}
+
 const app = document.getElementById('app');
 const statusLine = document.getElementById('statusLine');
 
@@ -222,9 +237,13 @@ async function boot(){
 }
 
 function isPart6(tid){ return typeof tid === 'string' && tid.startsWith('p6-'); }
+function isMini(tid){ return typeof tid === 'string' && tid.startsWith('mini-'); }
 
 function isTestAvailable(tid){
-  const t = isPart6(tid) ? (ACCESS.tests_p6 || {})[tid.slice(3)] : ACCESS.tests[tid];
+  let t;
+  if(isPart6(tid)) t = (ACCESS.tests_p6 || {})[tid.slice(3)];
+  else if(isMini(tid)) t = (ACCESS.tests_mini || {})[tid.slice(5)];
+  else t = ACCESS.tests[tid];
   if(!t || !t.unlocked) return {avail:false, future:false};
   if(t.unlock_date){
     const d = new Date(t.unlock_date);
@@ -248,6 +267,7 @@ function render(){
 
   if(currentTest && isTestAvailable(currentTest).avail){
     if(isPart6(currentTest)) renderPart6Test(currentTest);
+    else if(isMini(currentTest)) renderMiniTest(currentTest);
     else renderTest(currentTest);
     return;
   }
@@ -257,13 +277,16 @@ function render(){
 }
 
 function allTestIds(){
-  const p5Ids = Object.keys(QUESTIONS).filter(k=>k!=='p6').sort((a,b)=>+a-+b);
+  const p5Ids = Object.keys(QUESTIONS).filter(k=>k!=='p6' && k!=='mini').sort((a,b)=>+a-+b);
   const p6Ids = QUESTIONS.p6 ? Object.keys(QUESTIONS.p6).sort((a,b)=>+a-+b).map(id=>'p6-'+id) : [];
-  return p5Ids.concat(p6Ids);
+  const miniIds = QUESTIONS.mini ? Object.keys(QUESTIONS.mini).sort((a,b)=>+a-+b).map(id=>'mini-'+id) : [];
+  return p5Ids.concat(p6Ids).concat(miniIds);
 }
 
 function testLabel(tid){
-  return isPart6(tid) ? `Part 6 — Test ${tid.slice(3)}` : `Part 5 — Test ${tid}`;
+  if(isPart6(tid)) return `Part 6 — Test ${tid.slice(3)}`;
+  if(isMini(tid)) return `Mini Test ${tid.slice(5)}`;
+  return `Part 5 — Test ${tid}`;
 }
 
 function renderTestPicker(){
@@ -302,6 +325,7 @@ function renderTestPicker(){
       currentTest = document.getElementById('testSelect').value;
       answers = {};
       if(isPart6(currentTest)){ p6Submitted = false; p6Answers = {}; p6TimeLeft = P6_DURATION; }
+      else if(isMini(currentTest)){ miniSubmitted = false; miniAnswers = {}; miniTimeLeft = MINI_DURATION; }
       else { p5Submitted = false; p5TimeLeft = P5_DURATION; }
       render();
     };
@@ -348,10 +372,7 @@ function renderTest(tid){
     currentTest=null; render();
   };
   document.getElementById('testSelectInline').onchange = (e)=>{
-    if(p5Interval){ clearInterval(p5Interval); p5Interval=null; }
-    if(p6Interval){ clearInterval(p6Interval); p6Interval=null; }
-    p5Submitted=false; answers={}; p5TimeLeft=P5_DURATION;
-    p6Submitted=false; p6Answers={}; p6TimeLeft=P6_DURATION;
+    resetAllTestTimers();
     currentTest = e.target.value; render();
   };
 
@@ -531,11 +552,8 @@ function renderPart6Test(tid){
     currentTest = null; render();
   };
   document.getElementById('testSelectInline').onchange = (e)=>{
-    if(p6Interval){ clearInterval(p6Interval); p6Interval = null; }
-    p6Submitted = false; p6Answers = {};
-    currentTest = e.target.value; answers={}; checked={};
-    if(isPart6(currentTest)) p6TimeLeft = P6_DURATION;
-    render();
+    resetAllTestTimers();
+    currentTest = e.target.value; render();
   };
 
   if(!p6Submitted){
@@ -605,6 +623,226 @@ function renderPart6Correction(test){
     html += wrong.map(w=>`
       <div class="p6-correction">
         <div class="qref">${w.passageLabel} &middot; Question ${w.num}</div>
+        <div>Votre réponse : <span class="your">${w.your}</span></div>
+        <div>Bonne réponse : <span class="good">${w.good}</span></div>
+        <div class="explain">${w.explanation}</div>
+      </div>`).join('');
+  }
+  return html;
+}
+
+/* ---------- Mini Tests : Part 5 + Part 6 + Part 7 combinés ---------- */
+const MINI_DURATION = 15*60; // 15 minutes
+let miniTimeLeft = MINI_DURATION;
+let miniInterval = null;
+let miniSubmitted = false;
+let miniAnswers = {}; // { qnum: 'A'/'B'/'C'/'D' for p5, or index 0-3 for p6/p7 }
+
+function renderMiniTest(tid){
+  const realId = tid.slice(5);
+  const test = QUESTIONS.mini[realId];
+
+  const nav = `
+    <div class="nav-bar">
+      <button id="backBtn">&#9664; Autres tests</button>
+      <select id="testSelectInline">
+        ${allTestIds().map(id=>{
+          const avail = isTestAvailable(id).avail;
+          return `<option value="${id}" ${id===tid?'selected':''} ${avail?'':'disabled'}>${testLabel(id)}${avail?'':' (fermé)'}</option>`;
+        }).join('')}
+      </select>
+      <span class="p6-timer" id="miniTimer">${p6Format(miniTimeLeft)}</span>
+    </div>
+    <div class="status-line">${testLabel(tid)} &middot; 19 questions (Part 5, 6 &amp; 7)</div>
+  `;
+
+  let bodyHtml;
+  if(miniSubmitted){
+    bodyHtml = renderMiniCorrection(test);
+  } else {
+    const p5Html = `
+      <h3 class="mini-section-title">PART 5 — Incomplete Sentences</h3>
+      ${test.part5.map(q=>{
+        const sentence = q.sentence.replace('_____', '<span class="blank">_____</span>');
+        const letters = ['A','B','C','D'];
+        const optsHtml = letters.map(letter=>{
+          let cls = 'opt';
+          if(miniAnswers['p5_'+q.num] === letter) cls += ' selected';
+          return `<div class="${cls}" id="mini_opt_p5_${q.num}_${letter}">
+            <span class="letter">${letter}</span><span>${q.options[letter]}</span>
+          </div>`;
+        }).join('');
+        return `
+          <div class="q-card">
+            <span class="q-num">Question ${q.num}</span>
+            <div class="q-sentence">${sentence}</div>
+            <div class="options">${optsHtml}</div>
+          </div>`;
+      }).join('')}
+    `;
+
+    const p6Html = `
+      <h3 class="mini-section-title">PART 6 — Text Completion</h3>
+      ${test.part6.map(p=>{
+        const bodyText = p.text.replace(/⟦(\d+)⟧/g, (m,n)=>`<span class="p6-blank">${n}</span>`);
+        const qHtml = p.questions.map(q=>{
+          const letters = ['A','B','C','D'];
+          const optsHtml = q.options.map((o,i)=>`
+            <label>
+              <input type="radio" name="mini_p6q${q.num}" value="${i}" ${miniAnswers['p6_'+q.num]===i?'checked':''}>
+              (${letters[i]}) ${o}
+            </label>`).join('');
+          return `<div class="p6-qblock"><div class="qnum">Question ${q.num}</div>${optsHtml}</div>`;
+        }).join('');
+        return `
+          <div class="p6-passage">
+            <div class="p6-passage-head"><div class="label">${p.label}</div><div class="meta">${p.meta}</div></div>
+            <div class="p6-passage-body">${bodyText}</div>
+            ${qHtml}
+          </div>`;
+      }).join('')}
+    `;
+
+    const p7Html = `
+      <h3 class="mini-section-title">PART 7 — Reading Comprehension</h3>
+      ${test.part7.map(p=>{
+        const qHtml = p.questions.map(q=>{
+          const letters = ['A','B','C','D'];
+          const optsHtml = q.options.map((o,i)=>`
+            <label>
+              <input type="radio" name="mini_p7q${q.num}" value="${i}" ${miniAnswers['p7_'+q.num]===i?'checked':''}>
+              (${letters[i]}) ${o}
+            </label>`).join('');
+          return `<div class="p6-qblock"><div class="qnum">Question ${q.num} — ${q.prompt}</div>${optsHtml}</div>`;
+        }).join('');
+        return `
+          <div class="p6-passage">
+            <div class="p6-passage-head"><div class="label">${p.label}</div><div class="meta">${p.meta}</div></div>
+            <div class="p6-passage-body">${p.text}</div>
+            ${qHtml}
+          </div>`;
+      }).join('')}
+    `;
+
+    const submitBtn = `<div style="text-align:center;margin:20px 0;"><button class="check-btn" style="width:auto;padding:12px 30px;" id="miniSubmitBtn">Corriger</button></div>`;
+    bodyHtml = p5Html + p6Html + p7Html + submitBtn;
+  }
+
+  app.innerHTML = nav + bodyHtml;
+
+  document.getElementById('backBtn').onclick = ()=>{
+    resetAllTestTimers();
+    currentTest = null; render();
+  };
+  document.getElementById('testSelectInline').onchange = (e)=>{
+    resetAllTestTimers();
+    currentTest = e.target.value; render();
+  };
+
+  if(!miniSubmitted){
+    test.part5.forEach(q=>{
+      ['A','B','C','D'].forEach(letter=>{
+        const el = document.getElementById(`mini_opt_p5_${q.num}_${letter}`);
+        if(el) el.onclick = ()=>{ miniAnswers['p5_'+q.num] = letter; renderMiniTest(tid); };
+      });
+    });
+    test.part6.forEach(p=>p.questions.forEach(q=>{
+      document.getElementsByName('mini_p6q'+q.num).forEach(radio=>{
+        radio.onchange = (e)=>{ miniAnswers['p6_'+q.num] = parseInt(e.target.value); };
+      });
+    }));
+    test.part7.forEach(p=>p.questions.forEach(q=>{
+      document.getElementsByName('mini_p7q'+q.num).forEach(radio=>{
+        radio.onchange = (e)=>{ miniAnswers['p7_'+q.num] = parseInt(e.target.value); };
+      });
+    }));
+
+    const btn = document.getElementById('miniSubmitBtn');
+    if(btn) btn.onclick = ()=> miniCorrect(tid);
+
+    if(!miniInterval){
+      miniInterval = setInterval(()=>{
+        miniTimeLeft--;
+        const timerEl = document.getElementById('miniTimer');
+        if(timerEl){
+          timerEl.textContent = p6Format(miniTimeLeft);
+          if(miniTimeLeft <= 60) timerEl.classList.add('low');
+        }
+        if(miniTimeLeft <= 0){
+          clearInterval(miniInterval); miniInterval = null;
+          miniCorrect(tid);
+        }
+      }, 1000);
+    }
+  }
+}
+
+function miniCorrect(tid){
+  if(miniInterval){ clearInterval(miniInterval); miniInterval = null; }
+  miniSubmitted = true;
+  renderMiniTest(tid);
+}
+
+function renderMiniCorrection(test){
+  const letters = ['A','B','C','D'];
+  let score = 0;
+  const wrong = [];
+
+  test.part5.forEach(q=>{
+    const userAns = miniAnswers['p5_'+q.num];
+    if(userAns === q.answer){ score++; }
+    else {
+      wrong.push({
+        ref: `Part 5 · Question ${q.num}`,
+        sentence: q.sentence.replace('_____', '<span class="blank">_____</span>'),
+        your: userAns ? `${userAns}) ${q.options[userAns]}` : 'Sans réponse',
+        good: `${q.answer}) ${q.options[q.answer]}`,
+        explanation: q.explanation
+      });
+    }
+  });
+
+  test.part6.forEach(p=>p.questions.forEach(q=>{
+    const userAns = miniAnswers['p6_'+q.num];
+    if(userAns === q.correct){ score++; }
+    else {
+      wrong.push({
+        ref: `Part 6 · ${p.label.split('—')[0].trim()} · Question ${q.num}`,
+        sentence: '',
+        your: userAns !== undefined ? `(${letters[userAns]}) ${q.options[userAns]}` : 'Sans réponse',
+        good: `(${letters[q.correct]}) ${q.options[q.correct]}`,
+        explanation: q.explanation
+      });
+    }
+  }));
+
+  test.part7.forEach(p=>p.questions.forEach(q=>{
+    const userAns = miniAnswers['p7_'+q.num];
+    if(userAns === q.correct){ score++; }
+    else {
+      wrong.push({
+        ref: `Part 7 · ${p.label.split('—')[0].trim()} · Question ${q.num}`,
+        sentence: q.prompt,
+        your: userAns !== undefined ? `(${letters[userAns]}) ${q.options[userAns]}` : 'Sans réponse',
+        good: `(${letters[q.correct]}) ${q.options[q.correct]}`,
+        explanation: q.explanation
+      });
+    }
+  }));
+
+  let html = `
+    <div class="score-panel">
+      <h2>Résultat</h2>
+      <div class="big">${score} / 19</div>
+    </div>`;
+
+  if(wrong.length === 0){
+    html += '<div class="p6-allcorrect">Excellent — toutes les réponses sont correctes, aucune correction nécessaire.</div>';
+  } else {
+    html += wrong.map(w=>`
+      <div class="p6-correction">
+        <div class="qref">${w.ref}</div>
+        ${w.sentence ? `<div style="margin-bottom:8px;">${w.sentence}</div>` : ''}
         <div>Votre réponse : <span class="your">${w.your}</span></div>
         <div>Bonne réponse : <span class="good">${w.good}</span></div>
         <div class="explain">${w.explanation}</div>
