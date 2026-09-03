@@ -5860,5 +5860,1287 @@
         }
       ]
     }
+  },
+  "mini": {
+    "1": {
+      "part5": [
+        {
+          "num": 1,
+          "sentence": "The committee has _____ three candidates for the director position.",
+          "options": {
+            "A": "shortlist",
+            "B": "shortlisted",
+            "C": "shortlisting",
+            "D": "shortlists"
+          },
+          "answer": "B",
+          "explanation": "« has shortlisted » est un present perfect actif (has + participe passé) : « the committee has shortlisted three candidates » (le comité a présélectionné trois candidats). « shortlist » est la base verbale, « shortlisting » un gérondif, « shortlists » un présent conjugué — aucun ne peut suivre « has » pour former le present perfect."
+        },
+        {
+          "num": 2,
+          "sentence": "Our customer service team is available _____ a week, 24 hours a day.",
+          "options": {
+            "A": "five days",
+            "B": "six days",
+            "C": "seven days",
+            "D": "three days"
+          },
+          "answer": "C",
+          "explanation": "« seven days a week, 24 hours a day » est l'expression figée signifiant « 24 heures sur 24, 7 jours sur 7 » (disponibilité continue). Les autres options contrediraient l'idée d'une disponibilité permanente déjà annoncée par « 24 hours a day »."
+        },
+        {
+          "num": 3,
+          "sentence": "Please review the attached document _____ signing it.",
+          "options": {
+            "A": "after",
+            "B": "since",
+            "C": "before",
+            "D": "until"
+          },
+          "answer": "C",
+          "explanation": "La logique impose de relire un document avant de le signer, non après : « review ... before signing » (relire avant de signer). « after » inverserait l'ordre logique ; « since » indiquerait une origine temporelle ; « until » indiquerait une action continue jusqu'à un moment donné, ce qui ne convient pas ici."
+        },
+        {
+          "num": 4,
+          "sentence": "The hotel offers _____ amenities including a pool and fitness center.",
+          "options": {
+            "A": "extensive",
+            "B": "extension",
+            "C": "extend",
+            "D": "extensively"
+          },
+          "answer": "A",
+          "explanation": "Un adjectif est attendu devant le nom « amenities » : « extensive amenities » (des équipements étendus/nombreux). « extension » est un nom, « extend » un verbe, « extensively » un adverbe — aucun ne peut modifier directement un nom de cette manière."
+        },
+        {
+          "num": 5,
+          "sentence": "Ms. Park was _____ selected to lead the new digital transformation project.",
+          "options": {
+            "A": "personal",
+            "B": "person",
+            "C": "personally",
+            "D": "personalize"
+          },
+          "answer": "C",
+          "explanation": "Un adverbe est attendu pour modifier le verbe passif « was selected » : « was personally selected » (a été personnellement choisie). « personal » est un adjectif, « person » un nom, « personalize » un verbe — aucun ne peut modifier un verbe à cette position."
+        }
+      ],
+      "part6": [
+        {
+          "label": "TEXTE 1 — QUESTIONS 6–9",
+          "meta": "Policy Update",
+          "text": "To: All Employees\nRe: Social Media Policy\n\nPlease be ⟦6⟧ that the company's social media policy has been ⟦7⟧. Employees are now asked to ⟦8⟧ any company-related posts before publishing. Failure to ⟦9⟧ with the new policy may result in disciplinary action.",
+          "questions": [
+            {
+              "num": 6,
+              "options": [
+                "aware",
+                "awfully",
+                "award",
+                "awkward"
+              ],
+              "correct": 0,
+              "explanation": "« Please be aware that » est l'expression figée signifiant « veuillez noter que ». Les trois autres options (awfully, award, awkward) sont des mots de la même famille lexicale mais ne conviennent ni grammaticalement ni sémantiquement après « be »."
+            },
+            {
+              "num": 7,
+              "options": [
+                "update",
+                "updates",
+                "updated",
+                "updating"
+              ],
+              "correct": 2,
+              "explanation": "Après « has been », on attend un participe passé pour former le present perfect passif : « has been updated » (a été mise à jour). « update » est la base verbale, « updates » un présent conjugué, « updating » une forme en -ing incompatible."
+            },
+            {
+              "num": 8,
+              "options": [
+                "review",
+                "reviewed",
+                "reviewing",
+                "reviews"
+              ],
+              "correct": 0,
+              "explanation": "Après « asked to », on attend la base verbale : « asked to review » (priés de relire). « reviewed » est un participe passé, « reviewing » un gérondif, « reviews » un présent conjugué — aucun ne convient après « to » dans une structure infinitive."
+            },
+            {
+              "num": 9,
+              "options": [
+                "comply",
+                "complied",
+                "complying",
+                "compliance"
+              ],
+              "correct": 0,
+              "explanation": "« failure to comply with » est l'expression figée signifiant « le fait de ne pas se conformer à ». Après « to », on attend la base verbale « comply ». « complied » et « complying » sont des formes conjuguées ou en -ing incompatibles ; « compliance » est un nom."
+            }
+          ]
+        },
+        {
+          "label": "TEXTE 2 — QUESTIONS 10–13",
+          "meta": "Customer Service Email",
+          "text": "Subject: Response to Your Complaint\n\nDear Mr. Fischer,\n\nThank you for ⟦10⟧ us regarding your recent experience. We sincerely apologize for the ⟦11⟧ service you received.\nWe have ⟦12⟧ the matter and taken appropriate action. As a gesture of goodwill, we are offering you a full ⟦13⟧ for the affected order.",
+          "questions": [
+            {
+              "num": 10,
+              "options": [
+                "contact",
+                "contacting",
+                "contacted",
+                "contacts"
+              ],
+              "correct": 1,
+              "explanation": "Après une préposition comme « for », on attend un gérondif : « thank you for contacting us » (merci de nous avoir contactés). « contact » est la base verbale, « contacted » un participe passé, « contacts » un présent conjugué — aucun ne peut suivre directement « for » de cette manière."
+            },
+            {
+              "num": 11,
+              "options": [
+                "satisfactory",
+                "unsatisfactory",
+                "satisfaction",
+                "satisfy"
+              ],
+              "correct": 1,
+              "explanation": "Le contexte est une lettre d'excuses (« we sincerely apologize ») : on ne s'excuse pas pour un service satisfaisant. « unsatisfactory service » (service insatisfaisant) est donc cohérent avec le sens de la phrase. « satisfaction » est un nom, « satisfy » un verbe — incompatibles grammaticalement devant « service »."
+            },
+            {
+              "num": 12,
+              "options": [
+                "investigate",
+                "investigating",
+                "investigated",
+                "investigation"
+              ],
+              "correct": 2,
+              "explanation": "Après « have », on attend un participe passé pour former le present perfect : « have investigated » (avons examiné). « investigate » est la base verbale, « investigating » un gérondif, « investigation » un nom — aucun ne convient après « have » dans cette structure."
+            },
+            {
+              "num": 13,
+              "options": [
+                "refund",
+                "refunds",
+                "refunding",
+                "refunded"
+              ],
+              "correct": 0,
+              "explanation": "Un nom est attendu après « a full » : « a full refund » (un remboursement intégral). « refunds » serait un pluriel incohérent avec l'article singulier « a » ; « refunding » et « refunded » sont des formes verbales, incompatibles à cette position."
+            }
+          ]
+        }
+      ],
+      "part7": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 14–16",
+          "meta": "Advertisement",
+          "text": "SOLAR PANEL INSTALLATION — SPECIAL OFFER\n\nSunrise Energy Solutions is offering a 15% discount on all solar panel installations booked before March 31. Our certified engineers will assess your property and design a custom system.\n\n• Free on-site assessment\n• 25-year manufacturer warranty\n• Monthly savings of up to €120\n\nCall 555-0233 or visit www.sunriseenergy.com to book your consultation.",
+          "questions": [
+            {
+              "num": 14,
+              "prompt": "What is required to receive the discount?",
+              "options": [
+                "Completing an online form",
+                "Booking before March 31",
+                "Paying in advance",
+                "Recommending a friend"
+              ],
+              "correct": 1,
+              "explanation": "Le texte indique explicitement « a 15% discount on all solar panel installations booked before March 31 » : la réservation avant le 31 mars est la condition pour obtenir la remise."
+            },
+            {
+              "num": 15,
+              "prompt": "How long is the manufacturer warranty?",
+              "options": [
+                "10 years",
+                "15 years",
+                "20 years",
+                "25 years"
+              ],
+              "correct": 3,
+              "explanation": "Le texte précise « 25-year manufacturer warranty » dans la liste des avantages."
+            },
+            {
+              "num": 16,
+              "prompt": "What does Sunrise Energy offer at no charge?",
+              "options": [
+                "Installation",
+                "A property assessment",
+                "A maintenance contract",
+                "A discount voucher"
+              ],
+              "correct": 1,
+              "explanation": "Le texte mentionne « Free on-site assessment » et précise que les ingénieurs « will assess your property » : l'évaluation de la propriété est gratuite."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 17–19",
+          "meta": "Web Page",
+          "text": "HORIZON FINANCIAL ADVISORS\n\nAt Horizon, we help individuals and businesses make the most of their finances. Our services include:\n• Retirement planning\n• Investment management\n• Tax optimization\n• Estate planning\n\nWith over 25 years of experience, our team of 60 advisors serves more than 8,000 clients across France and Belgium. Book a free 30-minute consultation at www.horizonfinance.eu.",
+          "questions": [
+            {
+              "num": 17,
+              "prompt": "How long has Horizon Financial Advisors been operating?",
+              "options": [
+                "8 years",
+                "25 years",
+                "30 years",
+                "60 years"
+              ],
+              "correct": 1,
+              "explanation": "Le texte indique « With over 25 years of experience », précisant l'ancienneté de l'entreprise."
+            },
+            {
+              "num": 18,
+              "prompt": "Which service is NOT listed?",
+              "options": [
+                "Retirement planning",
+                "Currency exchange",
+                "Tax optimization",
+                "Estate planning"
+              ],
+              "correct": 1,
+              "explanation": "La liste des services proposés est : Retirement planning, Investment management, Tax optimization, Estate planning. « Currency exchange » (change de devises) n'y figure pas."
+            },
+            {
+              "num": 19,
+              "prompt": "What is offered to new clients at no cost?",
+              "options": [
+                "A financial report",
+                "Investment management",
+                "A 30-minute consultation",
+                "Tax filing assistance"
+              ],
+              "correct": 2,
+              "explanation": "Le texte précise « Book a free 30-minute consultation » : la consultation de 30 minutes est gratuite."
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "part5": [
+        {
+          "num": 1,
+          "sentence": "The company will _____ its annual general meeting in March.",
+          "options": {
+            "A": "hold",
+            "B": "holding",
+            "C": "held",
+            "D": "holds"
+          },
+          "answer": "A",
+          "explanation": "Après le modal « will », on attend la base verbale : « will hold » (tiendra). « holding » est un gérondif, « held » un participe passé, « holds » un présent conjugué — aucun ne peut suivre directement un modal."
+        },
+        {
+          "num": 2,
+          "sentence": "The finance team _____ the budget proposal before the board meeting.",
+          "options": {
+            "A": "finalize",
+            "B": "finalizing",
+            "C": "finalized",
+            "D": "finalization"
+          },
+          "answer": "C",
+          "explanation": "Un verbe conjugué au passé est nécessaire comme verbe principal de la phrase : « finalized » (a finalisé). « finalize » est la base verbale sans marque de temps, « finalizing » un gérondif, « finalization » un nom — aucun ne peut fonctionner seul comme verbe conjugué."
+        },
+        {
+          "num": 3,
+          "sentence": "We will contact you _____ we receive your application.",
+          "options": {
+            "A": "as soon as",
+            "B": "in spite of",
+            "C": "rather than",
+            "D": "in case of"
+          },
+          "answer": "A",
+          "explanation": "« as soon as » introduit une proposition avec sujet et verbe (« we receive »), ce qui convient ici. « in spite of » et « in case of » sont suivis d'un groupe nominal, non d'une proposition ; « rather than » exprimerait une préférence, sens incompatible avec la phrase."
+        },
+        {
+          "num": 4,
+          "sentence": "The new policy applies to _____ all departments without exception.",
+          "options": {
+            "A": "virtually",
+            "B": "virtual",
+            "C": "virtue",
+            "D": "virtuous"
+          },
+          "answer": "A",
+          "explanation": "Un adverbe est attendu pour modifier « all departments » : « virtually all departments » (pratiquement tous les services). « virtual » et « virtuous » sont des adjectifs, « virtue » est un nom — aucun ne peut occuper cette position adverbiale."
+        },
+        {
+          "num": 5,
+          "sentence": "Staff are encouraged to _____ any safety concerns to their supervisor.",
+          "options": {
+            "A": "report",
+            "B": "reported",
+            "C": "reporting",
+            "D": "reporter"
+          },
+          "answer": "A",
+          "explanation": "Après « encouraged to », on attend la base verbale : « encouraged to report » (encouragés à signaler). « reported » est un participe passé, « reporting » un gérondif, « reporter » un nom — aucun ne convient après « to » dans cette structure infinitive."
+        }
+      ],
+      "part6": [
+        {
+          "label": "TEXTE 1 — QUESTIONS 6–9",
+          "meta": "Memo",
+          "text": "To: Purchasing Department\nRe: Supplier Change\n\nPlease note that, ⟦6⟧ October 1, all stationery orders should be placed with Primo Supplies Ltd. This change was made ⟦7⟧ a competitive tendering process. The new supplier has been ⟦8⟧ for quality and reliability. Orders must be submitted ⟦9⟧ the online procurement portal.",
+          "questions": [
+            {
+              "num": 6,
+              "options": [
+                "effective",
+                "effectively",
+                "effect",
+                "effects"
+              ],
+              "correct": 0,
+              "explanation": "« effective October 1 » est l'expression figée signifiant « à compter du 1er octobre », fréquente dans les documents professionnels. « effectively » est un adverbe, « effect » et « effects » sont des noms — aucun ne s'utilise dans cette collocation devant une date."
+            },
+            {
+              "num": 7,
+              "options": [
+                "follow",
+                "followed",
+                "following",
+                "follows"
+              ],
+              "correct": 2,
+              "explanation": "« following a competitive tendering process » utilise « following » comme préposition signifiant « à la suite de ». « follow » et « follows » sont des formes verbales conjuguées, « followed » un participe passé — aucun ne fonctionne comme préposition ici."
+            },
+            {
+              "num": 8,
+              "options": [
+                "approve",
+                "approved",
+                "approving",
+                "approval"
+              ],
+              "correct": 1,
+              "explanation": "Après « has been », on attend un participe passé : « has been approved » (a été approuvé). « approve » est la base verbale, « approving » un gérondif, « approval » un nom — aucun ne convient après « been »."
+            },
+            {
+              "num": 9,
+              "options": [
+                "through",
+                "throughout",
+                "thorough",
+                "thoroughly"
+              ],
+              "correct": 0,
+              "explanation": "« submitted through the portal » signifie « soumis via le portail », « through » indiquant le moyen utilisé. « throughout » signifierait « tout au long de » (temporel/spatial), « thorough » est un adjectif, « thoroughly » un adverbe — aucun ne convient dans ce sens de moyen."
+            }
+          ]
+        },
+        {
+          "label": "TEXTE 2 — QUESTIONS 10–13",
+          "meta": "Partnership Proposal",
+          "text": "Dear Ms. Yamamoto,\n\nI am writing on behalf of BlueWave Solutions to propose a ⟦10⟧ partnership with your organization. We believe our complementary expertise could ⟦11⟧ significant value to both parties.\nWe would welcome the ⟦12⟧ to discuss this further at your earliest convenience. Please find our company ⟦13⟧ attached for your review.",
+          "questions": [
+            {
+              "num": 10,
+              "options": [
+                "mutual",
+                "mutually",
+                "mutuality",
+                "mutualize"
+              ],
+              "correct": 0,
+              "explanation": "Un adjectif est attendu devant le nom « partnership » : « a mutual partnership » (un partenariat mutuel). « mutually » est un adverbe, « mutuality » un nom, « mutualize » un verbe — aucun ne peut modifier directement un nom de cette manière."
+            },
+            {
+              "num": 11,
+              "options": [
+                "bring",
+                "brings",
+                "brought",
+                "bringing"
+              ],
+              "correct": 0,
+              "explanation": "Après le modal « could », on attend la base verbale : « could bring » (pourrait apporter). « brings » est un présent conjugué, « brought » un passé, « bringing » un gérondif — aucun ne peut suivre directement un modal."
+            },
+            {
+              "num": 12,
+              "options": [
+                "opportunity",
+                "opportune",
+                "opportunist",
+                "opportunely"
+              ],
+              "correct": 0,
+              "explanation": "Un nom est attendu après l'article « the » : « the opportunity to discuss » (l'occasion de discuter). « opportune » est un adjectif, « opportunist » un nom de sens différent (personne opportuniste), « opportunely » un adverbe."
+            },
+            {
+              "num": 13,
+              "options": [
+                "profile",
+                "profiling",
+                "profiled",
+                "profiler"
+              ],
+              "correct": 0,
+              "explanation": "« company profile » est un nom composé signifiant « présentation de l'entreprise », correct après le possessif « our company ». « profiling » et « profiled » sont des formes verbales, « profiler » désigne une personne — aucun ne convient ici."
+            }
+          ]
+        }
+      ],
+      "part7": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 14–16",
+          "meta": "Article",
+          "text": "COWORKING SPACES BOOMING IN MAJOR CITIES\n\nThe number of coworking spaces in European cities has risen by 40% over the past three years. These shared work environments attract freelancers, startups, and increasingly, employees of large corporations working remotely.\n\nPopular features include high-speed internet, private meeting rooms, and networking events. Monthly memberships typically range from €150 to €400 depending on the city and amenities offered.\n\nIndustry analysts predict further growth as companies continue to reduce their permanent office footprints.",
+          "questions": [
+            {
+              "num": 14,
+              "prompt": "By how much have coworking spaces increased?",
+              "options": [
+                "20%",
+                "30%",
+                "40%",
+                "50%"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique « has risen by 40% over the past three years »."
+            },
+            {
+              "num": 15,
+              "prompt": "Who is NOT mentioned as a user of coworking spaces?",
+              "options": [
+                "Freelancers",
+                "Startups",
+                "Government employees",
+                "Remote corporate workers"
+              ],
+              "correct": 2,
+              "explanation": "Le texte cite « freelancers, startups, and ... employees of large corporations working remotely » — les employés du secteur public ne sont pas mentionnés."
+            },
+            {
+              "num": 16,
+              "prompt": "What do analysts expect for the future?",
+              "options": [
+                "A decline in memberships",
+                "Continued growth",
+                "Government regulation",
+                "Price reductions"
+              ],
+              "correct": 1,
+              "explanation": "Le texte conclut : « Industry analysts predict further growth »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 17–19",
+          "meta": "Article",
+          "text": "AI TOOLS TRANSFORM WORKPLACE PRODUCTIVITY\n\nA survey of 1,000 office workers published this year found that 58% now use AI-powered tools daily. Common applications include drafting emails, summarizing documents, and scheduling meetings.\n\nWhile productivity gains are significant—averaging 2.5 hours saved per worker per week—concerns about data privacy remain. Only 44% of companies surveyed had a formal AI usage policy in place.\n\nExperts recommend that organizations develop clear guidelines and provide training to maximize the benefits of these tools responsibly.",
+          "questions": [
+            {
+              "num": 17,
+              "prompt": "What percentage of workers use AI tools daily?",
+              "options": [
+                "44%",
+                "50%",
+                "58%",
+                "100%"
+              ],
+              "correct": 2,
+              "explanation": "Le texte précise « 58% now use AI-powered tools daily »."
+            },
+            {
+              "num": 18,
+              "prompt": "How much time do workers save on average each week?",
+              "options": [
+                "1 hour",
+                "2 hours",
+                "2.5 hours",
+                "3 hours"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique « averaging 2.5 hours saved per worker per week »."
+            },
+            {
+              "num": 19,
+              "prompt": "What do experts recommend?",
+              "options": [
+                "Banning AI tools at work",
+                "Developing usage guidelines and training",
+                "Replacing all staff with AI",
+                "Ignoring privacy concerns"
+              ],
+              "correct": 1,
+              "explanation": "Le texte conclut : « Experts recommend that organizations develop clear guidelines and provide training »."
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "part5": [
+        {
+          "num": 1,
+          "sentence": "The marketing campaign resulted in a significant _____ in brand awareness.",
+          "options": {
+            "A": "increase",
+            "B": "increased",
+            "C": "increasing",
+            "D": "increasingly"
+          },
+          "answer": "A",
+          "explanation": "Un nom est attendu après l'adjectif « significant » : « a significant increase » (une augmentation significative). « increased » est un participe passé, « increasing » un gérondif, « increasingly » un adverbe — aucun ne peut suivre un adjectif comme complément du verbe « resulted in »."
+        },
+        {
+          "num": 2,
+          "sentence": "Candidates must submit their portfolios _____ the closing date.",
+          "options": {
+            "A": "from",
+            "B": "by",
+            "C": "at",
+            "D": "on"
+          },
+          "answer": "B",
+          "explanation": "« submit by the closing date » signifie « soumettre au plus tard à la date de clôture », exprimant une échéance. « from » indiquerait une origine, « at » et « on » ne s'utilisent pas avec « date » dans ce sens de délai limite."
+        },
+        {
+          "num": 3,
+          "sentence": "The printer is _____ of producing up to 50 pages per minute.",
+          "options": {
+            "A": "capable",
+            "B": "capacity",
+            "C": "capably",
+            "D": "capability"
+          },
+          "answer": "A",
+          "explanation": "« capable of » est l'expression figée signifiant « capable de ». « capacity » et « capability » sont des noms, « capably » est un adverbe — aucun ne s'utilise dans cette collocation avec « of »."
+        },
+        {
+          "num": 4,
+          "sentence": "The supplier _____ the order was fulfilled on time.",
+          "options": {
+            "A": "confirm",
+            "B": "confirmed",
+            "C": "confirms",
+            "D": "confirming"
+          },
+          "answer": "B",
+          "explanation": "Un verbe conjugué au passé est nécessaire pour introduire la proposition qui suit (« the order was fulfilled »), au passé également : « confirmed » (a confirmé). « confirm » est la base verbale sans marque de temps, « confirming » un gérondif — aucun ne peut fonctionner seul comme verbe conjugué principal. « confirms » (présent) créerait une incohérence de temps avec « was fulfilled »."
+        },
+        {
+          "num": 5,
+          "sentence": "The meeting has been rescheduled _____ Thursday at 3 P.M.",
+          "options": {
+            "A": "for",
+            "B": "in",
+            "C": "to",
+            "D": "at"
+          },
+          "answer": "C",
+          "explanation": "« rescheduled to Thursday » est la collocation standard pour indiquer un nouveau moment après un changement d'horaire. « for » s'utiliserait pour fixer un rendez-vous initial, « in » et « at » ne sont pas les prépositions attendues avec « reschedule »."
+        }
+      ],
+      "part6": [
+        {
+          "label": "TEXTE 1 — QUESTIONS 6–9",
+          "meta": "Company Newsletter",
+          "text": "WELCOME TO OUR NEW TEAM MEMBERS\n\nWe are ⟦6⟧ to welcome five new colleagues who joined the company this month. Each new employee will be ⟦7⟧ to a senior colleague for their first four weeks.\nPlease make everyone feel ⟦8⟧ by introducing yourselves. A welcome ⟦9⟧ has been arranged for this Friday at 5:30 P.M. in the staff lounge.",
+          "questions": [
+            {
+              "num": 6,
+              "options": [
+                "thrill",
+                "thrilled",
+                "thrilling",
+                "thriller"
+              ],
+              "correct": 1,
+              "explanation": "Après « are », on attend un adjectif (participe passé à valeur adjectivale) : « are thrilled to » (sommes ravis de). « thrill » est la base verbale, « thrilling » signifierait « qui procure de l'excitation » (sens inversé), « thriller » est un nom."
+            },
+            {
+              "num": 7,
+              "options": [
+                "assign",
+                "assigned",
+                "assigning",
+                "assignment"
+              ],
+              "correct": 1,
+              "explanation": "Après « will be », on attend un participe passé pour former le futur passif : « will be assigned to » (sera affecté à). « assign » est la base verbale, « assigning » un gérondif, « assignment » un nom — aucun ne convient après « be »."
+            },
+            {
+              "num": 8,
+              "options": [
+                "welcome",
+                "welcomer",
+                "welcoming",
+                "welcomes"
+              ],
+              "correct": 0,
+              "explanation": "« feel welcome » est l'expression figée signifiant « se sentir bienvenu », où « welcome » fonctionne comme adjectif après « feel ». « welcomer » (rare, désignerait une personne qui accueille) et « welcomes » sont des noms ou verbes conjugués, « welcoming » en position d'adjectif signifierait plutôt que la personne elle-même est accueillante — sens différent de celui recherché."
+            },
+            {
+              "num": 9,
+              "options": [
+                "receptionist",
+                "receipt",
+                "reception",
+                "receptive"
+              ],
+              "correct": 2,
+              "explanation": "« a welcome reception » est un nom composé désignant un événement d'accueil (un pot de bienvenue). « receptionist » désigne une personne, « receipt » signifie « reçu », « receptive » est un adjectif — aucun ne convient dans ce sens d'événement."
+            }
+          ]
+        },
+        {
+          "label": "TEXTE 2 — QUESTIONS 10–13",
+          "meta": "Job Application Follow-up",
+          "text": "Subject: Follow-up on Job Application\n\nDear Hiring Manager,\n\nI am writing to follow up on my application, ⟦10⟧ on March 5, for the position of Project Coordinator. I remain very ⟦11⟧ in this role and would welcome an ⟦12⟧ on the status of my application.\nI am available for an interview at your ⟦13⟧. Thank you for your time.",
+          "questions": [
+            {
+              "num": 10,
+              "options": [
+                "submit",
+                "submitted",
+                "submitting",
+                "submission"
+              ],
+              "correct": 1,
+              "explanation": "« my application, submitted on March 5 » est une proposition relative réduite équivalant à « which was submitted on March 5 » : le participe passé « submitted » convient. « submit » est la base verbale, « submitting » un gérondif, « submission » un nom — aucun ne peut fonctionner comme participe passé ici."
+            },
+            {
+              "num": 11,
+              "options": [
+                "interesting",
+                "interested",
+                "interest",
+                "interests"
+              ],
+              "correct": 1,
+              "explanation": "« remain interested in » signifie « rester intéressé par », où « interested » fonctionne comme adjectif après « remain ». « interesting » signifierait que le poste lui-même est intéressant (sens inversé), « interest » et « interests » sont des noms ou verbes."
+            },
+            {
+              "num": 12,
+              "options": [
+                "update",
+                "updated",
+                "updates",
+                "updating"
+              ],
+              "correct": 0,
+              "explanation": "Après l'article indéfini singulier « an », on attend un nom singulier : « an update » (une mise à jour). « updated » est un participe passé/adjectif, « updates » un nom pluriel (incompatible avec « an »), « updating » un gérondif — aucun ne peut suivre « an » de cette manière."
+            },
+            {
+              "num": 13,
+              "options": [
+                "convenient",
+                "convenience",
+                "conveniently",
+                "conveniences"
+              ],
+              "correct": 1,
+              "explanation": "« at your convenience » est l'expression figée signifiant « quand cela vous conviendra », où « convenience » est un nom après le possessif « your ». « convenient » est un adjectif, « conveniently » un adverbe, « conveniences » un nom pluriel — aucun ne convient dans cette expression fixe au singulier."
+            }
+          ]
+        }
+      ],
+      "part7": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 14–16",
+          "meta": "Notice",
+          "text": "LIBRARY RENOVATION NOTICE\n\nThe Westside Public Library will be closed for three weeks for renovation, from Monday, August 12 to Friday, August 30. During this period, residents may access library services at the Central Branch on Market Street.\n\nThe mobile library will continue its regular schedule in the northern suburbs every Wednesday. Overdue book returns can be made via the drop box at the main entrance, which will remain accessible throughout the renovation.",
+          "questions": [
+            {
+              "num": 14,
+              "prompt": "How long will the library be closed?",
+              "options": [
+                "One week",
+                "Two weeks",
+                "Three weeks",
+                "Four weeks"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique explicitement « will be closed for three weeks for renovation », sans besoin de calculer à partir des dates."
+            },
+            {
+              "num": 15,
+              "prompt": "What will continue during the renovation?",
+              "options": [
+                "Normal library hours",
+                "The mobile library schedule",
+                "Staff training",
+                "Building inspections"
+              ],
+              "correct": 1,
+              "explanation": "Le texte précise : « The mobile library will continue its regular schedule »."
+            },
+            {
+              "num": 16,
+              "prompt": "Where can overdue books be returned?",
+              "options": [
+                "The Central Branch",
+                "A drop box at the main entrance",
+                "By post",
+                "Via a mobile app"
+              ],
+              "correct": 1,
+              "explanation": "Le texte indique : « Overdue book returns can be made via the drop box at the main entrance »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 17–19",
+          "meta": "Notice",
+          "text": "BRIDGE ROAD CLOSURE — DIVERSION IN EFFECT\n\nDue to emergency repairs, Bridge Road will be closed to all traffic between Oak Street and Hill Avenue from 6:00 A.M. Thursday until 8:00 P.M. Friday.\n\nDrivers are advised to use the following alternative route:\n• From the north: Take Maple Avenue to River Road\n• From the south: Use Central Boulevard to Elm Street\n\nPedestrian access will remain open via the footpath on the eastern side of the bridge. Emergency vehicles will be given priority access.",
+          "questions": [
+            {
+              "num": 17,
+              "prompt": "When will Bridge Road reopen?",
+              "options": [
+                "Thursday at 6:00 A.M.",
+                "Friday at 8:00 P.M.",
+                "Saturday morning",
+                "The following Monday"
+              ],
+              "correct": 1,
+              "explanation": "Le texte indique que la route est fermée « until 8:00 P.M. Friday », ce qui signifie qu'elle rouvre à ce moment-là."
+            },
+            {
+              "num": 18,
+              "prompt": "Who will retain access to the bridge area?",
+              "options": [
+                "Only delivery vehicles",
+                "No one",
+                "Pedestrians",
+                "Cyclists only"
+              ],
+              "correct": 2,
+              "explanation": "Le texte précise : « Pedestrian access will remain open via the footpath »."
+            },
+            {
+              "num": 19,
+              "prompt": "What should drivers coming from the south use?",
+              "options": [
+                "Maple Avenue",
+                "River Road",
+                "Central Boulevard to Elm Street",
+                "Oak Street"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique : « From the south: Use Central Boulevard to Elm Street »."
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "part5": [
+        {
+          "num": 1,
+          "sentence": "The training sessions are _____ on a first-come, first-served basis.",
+          "options": {
+            "A": "offer",
+            "B": "offering",
+            "C": "offered",
+            "D": "offers"
+          },
+          "answer": "C",
+          "explanation": "Après « are », on attend un participe passé pour former le passif : « are offered » (sont proposées). « offer » est la base verbale, « offering » un gérondif, « offers » un présent conjugué — aucun ne convient après « are » dans une structure passive."
+        },
+        {
+          "num": 2,
+          "sentence": "The managing director _____ her resignation last Tuesday.",
+          "options": {
+            "A": "submit",
+            "B": "submitted",
+            "C": "submitting",
+            "D": "submits"
+          },
+          "answer": "B",
+          "explanation": "Le repère temporel « last Tuesday » impose le prétérit simple : « submitted » (a soumis). « submit » est la base verbale, « submitting » un gérondif, « submits » un présent — aucun ne convient avec un marqueur de passé révolu."
+        },
+        {
+          "num": 3,
+          "sentence": "_____ the high cost, the board approved the renovation project.",
+          "options": {
+            "A": "Because",
+            "B": "Since",
+            "C": "Despite",
+            "D": "Although"
+          },
+          "answer": "C",
+          "explanation": "Le mot manquant est suivi directement d'un groupe nominal (« the high cost »), sans proposition. « Despite » est la seule option de cette liste à pouvoir précéder directement un nom. « Because », « Since » et « Although » exigent normalement une proposition avec sujet et verbe."
+        },
+        {
+          "num": 4,
+          "sentence": "The customer complained that the product was _____ as advertised.",
+          "options": {
+            "A": "not",
+            "B": "no",
+            "C": "none",
+            "D": "nothing"
+          },
+          "answer": "A",
+          "explanation": "« was not as advertised » est la structure standard de négation d'un adjectif/adverbe de comparaison. « no » s'utiliserait devant un nom, « none » et « nothing » sont des pronoms qui ne peuvent pas modifier « as advertised » de cette manière."
+        },
+        {
+          "num": 5,
+          "sentence": "The report will be distributed _____ all team leaders by Friday morning.",
+          "options": {
+            "A": "between",
+            "B": "under",
+            "C": "to",
+            "D": "for"
+          },
+          "answer": "C",
+          "explanation": "« distributed to all team leaders » signifie qu'un exemplaire est remis à chaque destinataire, ce qui est le sens recherché ici. « between » s'utiliserait pour exactement deux personnes, « under » et « for » ne sont pas les prépositions attendues avec « distribute » dans ce sens."
+        }
+      ],
+      "part6": [
+        {
+          "label": "TEXTE 1 — QUESTIONS 6–9",
+          "meta": "Letter",
+          "text": "Dear Mr. Okafor,\n\nWe are writing to confirm your ⟦6⟧ at the NorthBay Business Conference on December 3. Your registration number is NB-5540.\nAs a ⟦7⟧ speaker, you will have access to the VIP lounge. Please arrive ⟦8⟧ 9:00 A.M. sharp for the pre-event briefing. Detailed instructions will be sent ⟦9⟧ a week before the event.",
+          "questions": [
+            {
+              "num": 6,
+              "options": [
+                "participate",
+                "participation",
+                "participating",
+                "participates"
+              ],
+              "correct": 1,
+              "explanation": "Un nom est attendu après le possessif « your » : « your participation » (votre participation). « participate » est la base verbale, « participating » un gérondif, « participates » un présent conjugué — aucun ne peut suivre directement un possessif."
+            },
+            {
+              "num": 7,
+              "options": [
+                "feature",
+                "featured",
+                "featuring",
+                "features"
+              ],
+              "correct": 1,
+              "explanation": "« a featured speaker » utilise le participe passé « featured » comme adjectif, signifiant « intervenant mis en avant / vedette ». « feature » est la base verbale, « featuring » un gérondif, « features » un présent conjugué — aucun ne convient comme adjectif devant « speaker »."
+            },
+            {
+              "num": 8,
+              "options": [
+                "until",
+                "at",
+                "since",
+                "for"
+              ],
+              "correct": 1,
+              "explanation": "« arrive at 9:00 A.M. sharp » signifie « arriver à 9h00 pile », « at » étant la préposition standard devant une heure précise renforcée par « sharp ». « until » indiquerait une durée, « since » une origine passée, « for » une durée chiffrée — la présence de « sharp » élimine toute lecture avec « by » (non proposé ici), ne laissant que « at » comme réponse grammaticalement cohérente."
+            },
+            {
+              "num": 9,
+              "options": [
+                "approximately",
+                "approximate",
+                "approximation",
+                "approximated"
+              ],
+              "correct": 0,
+              "explanation": "Un adverbe est attendu pour modifier l'expression de durée « a week before the event » : « approximately a week before » (environ une semaine avant). « approximate » est un adjectif, « approximation » un nom, « approximated » un participe passé — aucun ne peut modifier une expression temporelle de cette manière."
+            }
+          ]
+        },
+        {
+          "label": "TEXTE 2 — QUESTIONS 10–13",
+          "meta": "Supplier Confirmation",
+          "text": "Subject: Order Confirmation #SUP-2210\n\nDear Procurement Team,\n\nThis email serves as ⟦10⟧ that your order #SUP-2210 has been received and is being ⟦11⟧. Delivery is ⟦12⟧ for next Tuesday, April 8. If you need to make any changes to the order, please ⟦13⟧ us by Thursday.",
+          "questions": [
+            {
+              "num": 10,
+              "options": [
+                "confirm",
+                "confirmation",
+                "confirming",
+                "confirmed"
+              ],
+              "correct": 1,
+              "explanation": "Un nom est attendu après la préposition « as » : « serves as confirmation » (sert de confirmation). « confirm » est la base verbale, « confirming » un gérondif, « confirmed » un participe passé — aucun ne peut suivre directement « as » de cette manière."
+            },
+            {
+              "num": 11,
+              "options": [
+                "process",
+                "processed",
+                "processing",
+                "processes"
+              ],
+              "correct": 1,
+              "explanation": "Après « is being », on attend un participe passé pour former le passif progressif : « is being processed » (est en cours de traitement). « processing » donnerait « is being processing », qui est incorrect en anglais — la forme correcte du passif progressif est toujours « be + being + participe passé », jamais « be + being + gérondif »."
+            },
+            {
+              "num": 12,
+              "options": [
+                "schedule",
+                "scheduled",
+                "scheduling",
+                "schedules"
+              ],
+              "correct": 1,
+              "explanation": "Après « is », on attend un participe passé pour former le passif : « is scheduled for » (est prévue pour). « schedule » est la base verbale, « scheduling » un gérondif, « schedules » un présent conjugué — aucun ne convient après « is » dans cette structure."
+            },
+            {
+              "num": 13,
+              "options": [
+                "contact",
+                "contacts",
+                "contacting",
+                "contacted"
+              ],
+              "correct": 0,
+              "explanation": "Après « please », on attend la base verbale à l'impératif : « please contact us » (veuillez nous contacter). « contacts » est un présent conjugué, « contacting » un gérondif, « contacted » un participe passé — aucun ne convient à l'impératif."
+            }
+          ]
+        }
+      ],
+      "part7": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 14–16",
+          "meta": "Email",
+          "text": "From: Sandra Lim <s.lim@brightpath.edu>\nTo: Workshop Participants\nSubject: Workshop Materials Update\n\nDear Participants,\n\nPlease note that the reading materials for Saturday's leadership workshop have been updated. The new version includes a revised chapter on communication strategies, which replaces pages 34–47 in your original packet.\n\nYou can download the updated materials from our portal at www.brightpath.edu/workshop. Your login credentials remain unchanged.\n\nThe workshop will begin at 9:00 A.M. Parking is available in Lot B. We look forward to seeing you on Saturday.\n\nSandra Lim\nBrightPath Learning",
+          "questions": [
+            {
+              "num": 14,
+              "prompt": "What has been changed in the workshop materials?",
+              "options": [
+                "The venue",
+                "A chapter on communication",
+                "The login credentials",
+                "The workshop schedule"
+              ],
+              "correct": 1,
+              "explanation": "Le texte précise : « The new version includes a revised chapter on communication strategies »."
+            },
+            {
+              "num": 15,
+              "prompt": "How can participants access the updated materials?",
+              "options": [
+                "By email attachment",
+                "In print at reception",
+                "Via the organization's portal",
+                "By calling Sandra Lim"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique : « You can download the updated materials from our portal »."
+            },
+            {
+              "num": 16,
+              "prompt": "What information does Sandra provide about parking?",
+              "options": [
+                "Parking is free.",
+                "Parking is not available.",
+                "Parking is in Lot B.",
+                "Participants must take public transport."
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique simplement : « Parking is available in Lot B »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 17–19",
+          "meta": "Email",
+          "text": "From: Events Team <events@globalexpo.com>\nTo: All Exhibitors\nSubject: Final Instructions — GlobalExpo 2025\n\nDear Exhibitor,\n\nWelcome to GlobalExpo 2025! Please review the following key points before the event:\n\n• Setup: Hall access begins at 7:00 A.M. on May 14. All stands must be ready by 9:30 A.M.\n• Badges: Collect your exhibitor badges at Reception Desk C upon arrival.\n• Parking: A designated exhibitor parking zone is located in Area F. Your pass is enclosed.\n• Catering: Complimentary lunch will be served in the Exhibitor Lounge from 12:30 to 2:00 P.M.\n\nPlease direct any questions to info@globalexpo.com.",
+          "questions": [
+            {
+              "num": 17,
+              "prompt": "By what time must all stands be ready?",
+              "options": [
+                "7:00 A.M.",
+                "9:00 A.M.",
+                "9:30 A.M.",
+                "12:30 P.M."
+              ],
+              "correct": 2,
+              "explanation": "Le texte précise : « All stands must be ready by 9:30 A.M. »."
+            },
+            {
+              "num": 18,
+              "prompt": "Where should exhibitors collect their badges?",
+              "options": [
+                "Area F",
+                "The main entrance",
+                "Reception Desk C",
+                "The Exhibitor Lounge"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique : « Collect your exhibitor badges at Reception Desk C »."
+            },
+            {
+              "num": 19,
+              "prompt": "What is provided free of charge during the event?",
+              "options": [
+                "Accommodation",
+                "Lunch",
+                "Transportation",
+                "Exhibition materials"
+              ],
+              "correct": 1,
+              "explanation": "Le texte précise : « Complimentary lunch will be served », « complimentary » signifiant « gratuit »."
+            }
+          ]
+        }
+      ]
+    },
+    "5": {
+      "part5": [
+        {
+          "num": 1,
+          "sentence": "Employees are _____ to take at least one training course per year.",
+          "options": {
+            "A": "require",
+            "B": "required",
+            "C": "requiring",
+            "D": "requirement"
+          },
+          "answer": "B",
+          "explanation": "Après « are », on attend un participe passé pour former le passif : « are required to » (sont tenus de). « require » est la base verbale, « requiring » un gérondif, « requirement » un nom — aucun ne convient après « are » dans cette structure."
+        },
+        {
+          "num": 2,
+          "sentence": "The _____ of the new product line exceeded initial projections.",
+          "options": {
+            "A": "launch",
+            "B": "launching",
+            "C": "launched",
+            "D": "launcher"
+          },
+          "answer": "A",
+          "explanation": "Un nom est attendu comme sujet de la phrase après « The » : « The launch of the new product line » (le lancement). « launching » (gérondif) pourrait fonctionner mais « launch » est le nom standard employé dans ce contexte commercial ; « launched » est un participe passé, « launcher » désigne un dispositif ou une personne — sens incompatible ici."
+        },
+        {
+          "num": 3,
+          "sentence": "The presentation was _____ well-received by the audience.",
+          "options": {
+            "A": "exceptional",
+            "B": "exception",
+            "C": "except",
+            "D": "exceptionally"
+          },
+          "answer": "D",
+          "explanation": "Un adverbe est attendu pour modifier l'adjectif/participe « well-received » : « exceptionally well-received » (exceptionnellement bien accueillie). « exceptional » est un adjectif, « exception » un nom, « except » une préposition/conjonction — aucun ne peut modifier un adjectif de cette manière."
+        },
+        {
+          "num": 4,
+          "sentence": "Guests are asked _____ their rooms before 11:00 A.M. on the day of departure.",
+          "options": {
+            "A": "vacate",
+            "B": "to vacate",
+            "C": "vacating",
+            "D": "vacated"
+          },
+          "answer": "B",
+          "explanation": "Après « asked », on attend l'infinitif complet : « asked to vacate » (priés de libérer). « vacate » seul, « vacating » (gérondif) et « vacated » (participe passé) ne peuvent pas suivre directement « asked » sans « to »."
+        },
+        {
+          "num": 5,
+          "sentence": "Neither the price _____ the delivery time was satisfactory.",
+          "options": {
+            "A": "and",
+            "B": "or",
+            "C": "but",
+            "D": "nor"
+          },
+          "answer": "D",
+          "explanation": "« neither ... nor » est la conjonction de corrélation fixe signifiant « ni ... ni ». « and », « or » et « but » ne s'associent pas grammaticalement avec « neither » dans cette structure corrélative."
+        }
+      ],
+      "part6": [
+        {
+          "label": "TEXTE 1 — QUESTIONS 6–9",
+          "meta": "Internal Notice",
+          "text": "NOTICE: IT SYSTEM UPGRADE\n\nOur IT infrastructure will ⟦6⟧ scheduled maintenance this weekend. The system will be ⟦7⟧ from Saturday 10 P.M. to Sunday 6 A.M.\nEmployees are advised to save all files ⟦8⟧ logging off on Friday. ⟦9⟧ the upgrade, access to internal servers will be unavailable.",
+          "questions": [
+            {
+              "num": 6,
+              "options": [
+                "undergo",
+                "undergoes",
+                "undergone",
+                "undergoing"
+              ],
+              "correct": 0,
+              "explanation": "Après le modal « will », on attend la base verbale : « will undergo » (subira). « undergoes » est un présent conjugué, « undergone » un participe passé, « undergoing » un gérondif — aucun ne peut suivre directement un modal."
+            },
+            {
+              "num": 7,
+              "options": [
+                "unavailable",
+                "unavailability",
+                "unavailably",
+                "unavailing"
+              ],
+              "correct": 0,
+              "explanation": "Un adjectif est attendu après « will be » : « will be unavailable » (sera indisponible). « unavailability » est un nom, « unavailably » et « unavailing » ne sont pas des formes standard utilisables ici."
+            },
+            {
+              "num": 8,
+              "options": [
+                "before",
+                "after",
+                "during",
+                "since"
+              ],
+              "correct": 0,
+              "explanation": "La logique impose de sauvegarder les fichiers avant de se déconnecter, non après : « save files before logging off ». « after » inverserait l'ordre logique ; « during » et « since » ne conviennent pas à une action ponctuelle précédant une autre."
+            },
+            {
+              "num": 9,
+              "options": [
+                "During",
+                "Although",
+                "Because",
+                "When"
+              ],
+              "correct": 0,
+              "explanation": "Le mot manquant est suivi directement d'un groupe nominal (« the upgrade »), sans proposition : « During the upgrade » (pendant la mise à niveau). « Although », « Because » et « When » exigent normalement une proposition avec sujet et verbe, ce qui n'est pas le cas ici."
+            }
+          ]
+        },
+        {
+          "label": "TEXTE 2 — QUESTIONS 10–13",
+          "meta": "Event Invitation",
+          "text": "Subject: Invitation to the Annual Gala\n\nDear Ms. Richardson,\n\nIt is with great ⟦10⟧ that we invite you to our Annual Charity Gala on Friday, May 9, at the Meridian Grand Hotel.\nThis ⟦11⟧ event raises funds for local education programs. Tickets are ⟦12⟧ at €95 per person. Please RSVP by April 25 to confirm your ⟦13⟧.",
+          "questions": [
+            {
+              "num": 10,
+              "options": [
+                "pleasure",
+                "pleasing",
+                "pleased",
+                "please"
+              ],
+              "correct": 0,
+              "explanation": "« with great pleasure » est l'expression figée signifiant « avec grand plaisir », où « pleasure » est un nom après l'adjectif « great ». « pleasing » et « pleased » sont des adjectifs, « please » est un verbe/interjection — aucun ne convient après « great » dans cette structure."
+            },
+            {
+              "num": 11,
+              "options": [
+                "annual",
+                "annually",
+                "annualize",
+                "annuals"
+              ],
+              "correct": 0,
+              "explanation": "Un adjectif est attendu devant le nom « event » : « This annual event » (cet événement annuel). « annually » est un adverbe, « annualize » un verbe, « annuals » un nom pluriel — aucun ne peut modifier directement un nom de cette manière."
+            },
+            {
+              "num": 12,
+              "options": [
+                "price",
+                "priced",
+                "pricing",
+                "prices"
+              ],
+              "correct": 1,
+              "explanation": "Après « are », on attend un participe passé pour former le passif : « are priced at » (sont au prix de). « price » est la base verbale ou un nom, « pricing » un gérondif/nom, « prices » un nom pluriel ou un présent conjugué — aucun ne convient après « are » dans cette structure."
+            },
+            {
+              "num": 13,
+              "options": [
+                "attendance",
+                "attend",
+                "attending",
+                "attends"
+              ],
+              "correct": 0,
+              "explanation": "Un nom est attendu après le possessif « your » : « confirm your attendance » (confirmer votre présence). « attend » est la base verbale, « attending » un gérondif, « attends » un présent conjugué — aucun ne peut suivre directement un possessif."
+            }
+          ]
+        }
+      ],
+      "part7": [
+        {
+          "label": "PASSAGE 1 — QUESTIONS 14–16",
+          "meta": "Double Passage",
+          "text": "JOB POSTING\nPosition: Customer Relations Specialist\nLocation: Lyon, France\nRequirements: Minimum 2 years' experience in customer service; fluent in French and English; proficiency in CRM software preferred. Competitive salary and benefits package offered. Apply at www.nexuscorp.com/careers by October 15.\n\n---\nEMAIL\nFrom: Marc Delacroix\nTo: HR Department\nSubject: Application — Customer Relations Specialist\n\nDear HR Team,\n\nI am writing to apply for the Customer Relations Specialist position. I have three years of experience in customer support roles and am fluent in both French and English. I also hold a certification in Salesforce CRM. Please find my CV and cover letter attached. I am available for an interview at any time.\n\nBest regards,\nMarc Delacroix",
+          "questions": [
+            {
+              "num": 14,
+              "prompt": "What is a preferred qualification mentioned in the job posting?",
+              "options": [
+                "A university degree",
+                "CRM software proficiency",
+                "Sales experience",
+                "A driver's license"
+              ],
+              "correct": 1,
+              "explanation": "L'offre d'emploi précise : « proficiency in CRM software preferred »."
+            },
+            {
+              "num": 15,
+              "prompt": "How does Marc Delacroix exceed the experience requirement?",
+              "options": [
+                "He has four years of experience.",
+                "He has worked in sales.",
+                "He has one more year than required.",
+                "He has a management background."
+              ],
+              "correct": 2,
+              "explanation": "L'offre exige un minimum de 2 ans ; l'e-mail de Marc indique « three years of experience », soit un an de plus que le minimum requis (3-2=1)."
+            },
+            {
+              "num": 16,
+              "prompt": "What did Marc attach to his email?",
+              "options": [
+                "A reference letter",
+                "A CRM certificate only",
+                "His CV and cover letter",
+                "His portfolio"
+              ],
+              "correct": 2,
+              "explanation": "L'e-mail précise : « Please find my CV and cover letter attached »."
+            }
+          ]
+        },
+        {
+          "label": "PASSAGE 2 — QUESTIONS 17–19",
+          "meta": "Article",
+          "text": "SUSTAINABLE PACKAGING GAINS MOMENTUM\n\nA growing number of European retailers are switching to sustainable packaging solutions. According to an industry report released last month, 63% of major retailers now use recycled or biodegradable materials for at least 50% of their packaging.\n\nThe shift is driven largely by consumer demand and new EU regulations requiring reduced plastic use in product packaging by 2027. Companies that have made the transition report modest initial costs but long-term savings due to reduced material waste.\n\nSeveral industry leaders are calling for standardized labeling to help consumers identify eco-friendly products more easily.",
+          "questions": [
+            {
+              "num": 17,
+              "prompt": "What percentage of major retailers use sustainable packaging for over half their products?",
+              "options": [
+                "50%",
+                "53%",
+                "63%",
+                "70%"
+              ],
+              "correct": 2,
+              "explanation": "Le texte indique : « 63% of major retailers now use recycled or biodegradable materials for at least 50% of their packaging »."
+            },
+            {
+              "num": 18,
+              "prompt": "What is driving the shift to sustainable packaging?",
+              "options": [
+                "Government subsidies",
+                "Consumer demand and EU regulations",
+                "Lower production costs",
+                "Competitor pressure"
+              ],
+              "correct": 1,
+              "explanation": "Le texte précise : « driven largely by consumer demand and new EU regulations »."
+            },
+            {
+              "num": 19,
+              "prompt": "What are industry leaders calling for?",
+              "options": [
+                "Higher taxes on plastic",
+                "Standardized eco-friendly labeling",
+                "A ban on plastic packaging",
+                "Mandatory recycling programs"
+              ],
+              "correct": 1,
+              "explanation": "Le texte indique : « industry leaders are calling for standardized labeling »."
+            }
+          ]
+        }
+      ]
+    }
   }
 }
