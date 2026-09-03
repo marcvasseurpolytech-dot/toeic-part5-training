@@ -298,17 +298,22 @@ function renderTestPicker(){
   if(availableIds.length){
     document.getElementById('startBtn').onclick = ()=>{
       currentTest = document.getElementById('testSelect').value;
-      answers = {}; checked = {};
+      answers = {};
       if(isPart6(currentTest)){ p6Submitted = false; p6Answers = {}; p6TimeLeft = P6_DURATION; }
+      else { p5Submitted = false; p5TimeLeft = P5_DURATION; }
       render();
     };
   }
 }
 
+const P5_DURATION = 15*60; // 15 minutes
+let p5TimeLeft = P5_DURATION;
+let p5Interval = null;
+let p5Submitted = false;
+
 function renderTest(tid){
   const qs = QUESTIONS[tid];
   const total = qs.length;
-  const answeredCount = Object.keys(checked).filter(k=>k.startsWith(tid+'_')).length;
 
   const nav = `
     <div class="nav-bar">
@@ -319,87 +324,134 @@ function renderTest(tid){
           return `<option value="${id}" ${id===tid?'selected':''} ${avail?'':'disabled'}>${testLabel(id)}${avail?'':' (fermé)'}</option>`;
         }).join('')}
       </select>
+      <span class="p6-timer" id="p5Timer">${p6Format(p5TimeLeft)}</span>
     </div>
-    <div class="status-line">Test ${tid} &middot; ${answeredCount}/${total} question(s) vérifiée(s)</div>
+    <div class="status-line">Test ${tid} &middot; ${total} questions</div>
   `;
 
-  let scoreHtml = '';
-  if(answeredCount === total){
-    let score = 0;
-    qs.forEach(q=>{ if(answers[tid+'_'+q.num] === q.answer) score++; });
-    scoreHtml = `
-      <div class="score-panel">
-        <h2>Résultat</h2>
-        <div class="big">${score} / ${total}</div>
-      </div>`;
+  let bodyHtml;
+  if(p5Submitted){
+    bodyHtml = renderPart5Correction(tid, qs);
+  } else {
+    const cards = qs.map(q=>renderQuestion(tid, q)).join('');
+    const submitBtn = `<div style="text-align:center;margin:20px 0;"><button class="check-btn" style="width:auto;padding:12px 30px;" id="p5SubmitBtn">Corriger</button></div>`;
+    bodyHtml = cards + submitBtn;
   }
 
-  const cards = qs.map(q=>renderQuestion(tid, q)).join('');
+  app.innerHTML = nav + bodyHtml;
 
-  app.innerHTML = nav + scoreHtml + cards;
-
-  document.getElementById('backBtn').onclick = ()=>{ currentTest=null; render(); };
+  document.getElementById('backBtn').onclick = ()=>{
+    if(p5Interval){ clearInterval(p5Interval); p5Interval=null; }
+    p5Submitted=false; answers={};
+    currentTest=null; render();
+  };
   document.getElementById('testSelectInline').onchange = (e)=>{
-    currentTest = e.target.value; answers={}; checked={}; render();
+    if(p5Interval){ clearInterval(p5Interval); p5Interval=null; }
+    if(p6Interval){ clearInterval(p6Interval); p6Interval=null; }
+    p5Submitted=false; answers={}; p5TimeLeft=P5_DURATION;
+    p6Submitted=false; p6Answers={}; p6TimeLeft=P6_DURATION;
+    currentTest = e.target.value; render();
   };
 
-  qs.forEach(q=>{
-    const key = tid+'_'+q.num;
-    ['A','B','C','D'].forEach(letter=>{
-      const el = document.getElementById('opt_'+key+'_'+letter);
-      if(el) el.onclick = ()=> selectOption(tid, q, letter);
+  if(!p5Submitted){
+    qs.forEach(q=>{
+      const key = tid+'_'+q.num;
+      ['A','B','C','D'].forEach(letter=>{
+        const el = document.getElementById('opt_'+key+'_'+letter);
+        if(el) el.onclick = ()=> selectOption(tid, q, letter);
+      });
     });
-    const btn = document.getElementById('check_'+key);
-    if(btn) btn.onclick = ()=> checkAnswer(tid, q);
-  });
+    const btn = document.getElementById('p5SubmitBtn');
+    if(btn) btn.onclick = ()=> p5Correct(tid);
+
+    if(!p5Interval){
+      p5Interval = setInterval(()=>{
+        p5TimeLeft--;
+        const timerEl = document.getElementById('p5Timer');
+        if(timerEl){
+          timerEl.textContent = p6Format(p5TimeLeft);
+          if(p5TimeLeft <= 60) timerEl.classList.add('low');
+        }
+        if(p5TimeLeft <= 0){
+          clearInterval(p5Interval); p5Interval=null;
+          p5Correct(tid);
+        }
+      }, 1000);
+    }
+  }
 }
 
 function renderQuestion(tid, q){
   const key = tid+'_'+q.num;
   const sentence = q.sentence.replace('_______', '<span class="blank">_______</span>');
-  const isChecked = !!checked[key];
   const userAns = answers[key];
 
   const optionsHtml = ['A','B','C','D'].map(letter=>{
     let cls = 'opt';
-    if(!isChecked && userAns===letter) cls += ' selected';
-    if(isChecked){
-      if(letter === q.answer) cls += ' correct';
-      else if(letter === userAns) cls += ' incorrect';
-    }
+    if(userAns===letter) cls += ' selected';
     return `<div class="${cls}" id="opt_${key}_${letter}">
       <span class="letter">${letter}</span><span>${q.options[letter]}</span>
     </div>`;
   }).join('');
-
-  const explanationHtml = isChecked ? `
-    <div class="explanation"><em>Réponse : ${q.answer}) ${q.options[q.answer]}.</em><br>${q.explanation}</div>
-  ` : '';
-
-  const btnHtml = isChecked ? '' : `<button class="check-btn" id="check_${key}" ${userAns?'':'disabled'}>Vérifier ma réponse</button>`;
 
   return `
     <div class="q-card">
       <span class="q-num">Question ${q.num}</span>
       <div class="q-sentence">${sentence}</div>
       <div class="options">${optionsHtml}</div>
-      ${btnHtml}
-      ${explanationHtml}
     </div>`;
 }
 
 function selectOption(tid, q, letter){
   const key = tid+'_'+q.num;
-  if(checked[key]) return;
   answers[key] = letter;
   renderTest(tid);
 }
 
-function checkAnswer(tid, q){
-  const key = tid+'_'+q.num;
-  if(!answers[key]) return;
-  checked[key] = true;
+function p5Correct(tid){
+  if(p5Interval){ clearInterval(p5Interval); p5Interval=null; }
+  p5Submitted = true;
   renderTest(tid);
+}
+
+function renderPart5Correction(tid, qs){
+  let score = 0;
+  const wrong = [];
+  qs.forEach(q=>{
+    const key = tid+'_'+q.num;
+    const userAns = answers[key];
+    if(userAns === q.answer){
+      score++;
+    } else {
+      wrong.push({
+        num: q.num,
+        sentence: q.sentence.replace('_______', '<span class="blank">_______</span>'),
+        your: userAns ? `${userAns}) ${q.options[userAns]}` : 'Sans réponse',
+        good: `${q.answer}) ${q.options[q.answer]}`,
+        explanation: q.explanation
+      });
+    }
+  });
+
+  let html = `
+    <div class="score-panel">
+      <h2>Résultat</h2>
+      <div class="big">${score} / ${qs.length}</div>
+    </div>`;
+
+  if(wrong.length === 0){
+    html += '<div class="p6-allcorrect">Excellent — toutes les réponses sont correctes, aucune correction nécessaire.</div>';
+  } else {
+    html += wrong.map(w=>`
+      <div class="p6-correction">
+        <div class="qref">Question ${w.num}</div>
+        <div class="q-sentence" style="font-size:.95rem;margin-bottom:10px;">${w.sentence}</div>
+        <div>Votre réponse : <span class="your">${w.your}</span></div>
+        <div>Bonne réponse : <span class="good">${w.good}</span></div>
+        <div class="explain">${w.explanation}</div>
+      </div>`).join('');
+  }
+  return html;
 }
 
 /* ---------- Part 6 : texte à trous ---------- */
