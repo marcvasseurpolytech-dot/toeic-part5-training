@@ -244,11 +244,15 @@ function isTestAvailable(tid){
   if(isPart6(tid)) t = (ACCESS.tests_p6 || {})[tid.slice(3)];
   else if(isMini(tid)) t = (ACCESS.tests_mini || {})[tid.slice(5)];
   else t = ACCESS.tests[tid];
-  if(!t || !t.unlocked) return {avail:false, future:false};
+  if(!t) return {avail:false, future:false};
   if(t.unlock_date){
     const d = new Date(t.unlock_date);
-    if(d.getTime() > Date.now()) return {avail:false, future:true, date:d};
+    const now = Date.now();
+    if(d.getTime() > now) return {avail:false, future:true, date:d};
+    // date passée => ouvert automatiquement
+    return {avail:true, future:false};
   }
+  if(!t.unlocked) return {avail:false, future:false};
   return {avail:true, future:false};
 }
 
