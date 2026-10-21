@@ -1,6 +1,6 @@
 {
   "closed": false,
-  "updated_at": "2026-10-02T06:55:44.677Z",
+  "updated_at": "2026-10-21T08:54:14.788Z",
   "tests": {
     "1": {
       "unlocked": true,
@@ -15,15 +15,15 @@
       "unlock_date": null
     },
     "4": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "5": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "6": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "7": {
@@ -57,15 +57,15 @@
       "unlock_date": null
     },
     "4": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "5": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "6": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "7": {
@@ -99,11 +99,11 @@
       "unlock_date": null
     },
     "4": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     },
     "5": {
-      "unlocked": false,
+      "unlocked": true,
       "unlock_date": null
     }
   }
