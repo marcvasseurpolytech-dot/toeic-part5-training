@@ -42,6 +42,8 @@ module.exports = async (req, res) => {
   };
 
   const apiUrl = `https://api.github.com/repos/${GITHUB_REPO}/contents/access.json`;
+  // Dedicated branch: writes must not trigger a production deploy.
+  const BRANCH = 'data';
   const headers = {
     Authorization: `Bearer ${GITHUB_TOKEN}`,
     Accept: 'application/vnd.github+json',
@@ -49,7 +51,7 @@ module.exports = async (req, res) => {
   };
 
   try {
-    const getRes = await fetch(apiUrl, { headers });
+    const getRes = await fetch(apiUrl + '?ref=' + BRANCH, { headers });
     if (!getRes.ok) {
       const t = await getRes.text();
       res.status(502).json({ error: 'Impossible de lire access.json sur GitHub: ' + t });
@@ -66,7 +68,8 @@ module.exports = async (req, res) => {
       body: JSON.stringify({
         message: 'admin: update access.json (' + new Date().toISOString() + ')',
         content,
-        sha
+        sha,
+        branch: BRANCH
       })
     });
 

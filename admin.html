@@ -149,7 +149,7 @@ document.getElementById('loginBtn').onclick = async ()=>{
 };
 
 async function loadAccess(){
-  const res = await fetch('access.json?t=' + Date.now());
+  const res = await fetch('https://raw.githubusercontent.com/marcvasseurpolytech-dot/toeic-part5-training/data/access.json?t=' + Date.now());
   currentAccess = await res.json();
   renderAccess();
 }
